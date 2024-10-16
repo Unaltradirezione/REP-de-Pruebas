@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:nomina12="http://www.sat.gob.mx/nomina12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd http://www.sat.gob.mx/nomina12 http://www.sat.gob.mx/sitio_internet/cfd/nomina/nomina12.xsd" Moneda="MXN" TipoDeComprobante="N" Folio="0550061400053" Descuento="565.43" NoCertificado="00001000000510081003" SubTotal="2827.43" MetodoPago="PUE" Exportacion="01" LugarExpedicion="64480" Fecha="2024-09-25T19:36:33" Version="4.0" Total="2262.00" Certificado="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" Sello="ceUdcvVTqLP4URM/O7x3KhIqC/5693QsfBf5N1pWVPMh1Oe2kGsqwYHh5NqYUwLvowXM5F+2g96agZsX+kb0ccfFTP3iPSeh2YISqsGbu1XfEDvz8NUiDL2+cB/zNaSEz2DuKQPfjCmA5amQ1uMUdpyDxHCyv76mEcUbYyAPSpZYdX+RAtsxLT19kvBpOCQ4Baj8wj9KZYEESFjmFAbwcUTtss0dmzToVPfVR+8k49vHEF8nUlvRtVcVvEADzV1tVRRqYpTnm4bvgYN039qqc4zEhjuRVIFqqR6mdfLyfSi7zqa2xDEGBzjf0i/9ZBvhAadu4D8uDl5QjbTsZYaJDA==" Serie="OXO-000002">
+  <cfdi:Emisor Nombre="CADENA COMERCIAL OXXO" RegimenFiscal="623" Rfc="CCO8605231N4" />
+  <cfdi:Receptor Nombre="CARLOS JESUS SANCHEZ LEON" UsoCFDI="CN01" Rfc="SALC021104LJ7" DomicilioFiscalReceptor="52156" RegimenFiscalReceptor="605" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto Cantidad="1" ClaveProdServ="84111505" ClaveUnidad="ACT" Descripcion="Pago de nómina" Descuento="565.43" ValorUnitario="2827.43" Importe="2827.43" ObjetoImp="01" />
+  </cfdi:Conceptos>
+  <cfdi:Complemento>
+    <nomina12:Nomina TipoNomina="O" FechaPago="2024-09-29" FechaInicialPago="2024-09-23" FechaFinalPago="2024-09-29" NumDiasPagados="7" TotalPercepciones="2827.43" TotalDeducciones="565.43" TotalOtrosPagos="0.00" Version="1.2">
+      <nomina12:Emisor RegistroPatronal="C6023574109" RfcPatronOrigen="CCO8605231N4" />
+      <nomina12:Receptor Antigüedad="P18W" ClaveEntFed="MEX" CuentaBancaria="014427140012472391" Curp="SALC021104HMCNNRA4" FechaInicioRelLaboral="2024-05-23" NumEmpleado="05500614" NumSeguridadSocial="05230207994" PeriodicidadPago="02" Puesto="-" RiesgoPuesto="2" SalarioBaseCotApor="303.65" SalarioDiarioIntegrado="303.65" Sindicalizado="Sí" TipoContrato="01" TipoJornada="08" TipoRegimen="02" />
+      <nomina12:Percepciones TotalSueldos="2827.43" TotalGravado="2323.15" TotalExento="504.28">
+        <nomina12:Percepcion TipoPercepcion="001" Clave="1000" Concepto="Salario Ordinario" ImporteGravado="1759.94" ImporteExento="0.00" />
+        <nomina12:Percepcion TipoPercepcion="019" Clave="6430" Concepto="Día Festivo Lab Grav" ImporteGravado="251.42" ImporteExento="0.00">
+          <nomina12:HorasExtra Dias="1" TipoHoras="01" HorasExtra="8" ImportePagado="251.42" />
+        </nomina12:Percepcion>
+        <nomina12:Percepcion TipoPercepcion="019" Clave="6431" Concepto="Día Festivo Lab Exento" ImporteGravado="0.00" ImporteExento="251.42">
+          <nomina12:HorasExtra Dias="1" TipoHoras="01" HorasExtra="8" ImportePagado="251.42" />
+        </nomina12:Percepcion>
+        <nomina12:Percepcion TipoPercepcion="020" Clave="6408" Concepto="Prima Dom Exento" ImporteGravado="0.00" ImporteExento="62.86" />
+        <nomina12:Percepcion TipoPercepcion="029" Clave="1956" Concepto="Vales Despensa Fijos Sind" ImporteGravado="0.00" ImporteExento="190.00" />
+        <nomina12:Percepcion TipoPercepcion="038" Clave="109W" Concepto="Bonificación Extraordinar" ImporteGravado="17.50" ImporteExento="0.00" />
+        <nomina12:Percepcion TipoPercepcion="038" Clave="106S" Concepto="Concurso Sed" ImporteGravado="200.00" ImporteExento="0.00" />
+        <nomina12:Percepcion TipoPercepcion="038" Clave="1149" Concepto="Incentivo de Comida" ImporteGravado="94.29" ImporteExento="0.00" />
+      </nomina12:Percepciones>
+      <nomina12:Deducciones TotalOtrasDeducciones="385.7" TotalImpuestosRetenidos="179.73">
+        <nomina12:Deduccion TipoDeduccion="002" Clave="CC12" Concepto="Impuesto ordinario" Importe="179.73" />
+        <nomina12:Deduccion TipoDeduccion="018" Clave="2451" Concepto="Ahorro a la Vista SCYF" Importe="0.03" />
+        <nomina12:Deduccion TipoDeduccion="018" Clave="2452" Concepto="Ahorro a Plazo Fijo SCYF" Importe="300.00" />
+        <nomina12:Deduccion TipoDeduccion="019" Clave="2SFN" Concepto="Desc Cuota Sindical" Importe="35.20" />
+        <nomina12:Deduccion TipoDeduccion="021" Clave="&amp;391" Concepto="Aport IMSS trabajad" Importe="50.47" />
+      </nomina12:Deducciones>
+      <nomina12:OtrosPagos>
+        <nomina12:OtroPago TipoOtroPago="002" Clave="&amp;481" Concepto="Subsidio al empleo efvo" Importe="0.0">
+          <nomina12:SubsidioAlEmpleo SubsidioCausado="0.0" />
+        </nomina12:OtroPago>
+      </nomina12:OtrosPagos>
+    </nomina12:Nomina>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="b7881981-8e33-41c2-bde7-367f43f78119" FechaTimbrado="2024-09-25T22:50:48" RfcProvCertif="AUR100128NN3" SelloSAT="n4YIU5bDLDppBs+hr3nfkHM4RkKUylMe6QQNCJSRgAw+8AbK+DUxrIqNG1Fh6n1M3/qkRBRhz40zyj7mBfHzahiW6yBwYwSGfD1NYooPJddnP8BB6gYVrR6u/YGwej98te+8wwbpbHMleOfhzYChBavP9SXR1ZsST7pMGPkRW4+XNlXLs8yoTsoT4b1LmwBm7gADGuQGo2X5RvuxMUyPMUryYHl0BkqHFME1zHx0EchQPc+5UWcnJ2a5YTD1kGMva2FeThLeuCBnEA2HPXm8HCVrNqxHi1UNx2QnV9Z4laCUO+kxRDL6LTzLE3WdbkPUiT4AueZvuCHrLGozVOPbJw==" SelloCFD="ceUdcvVTqLP4URM/O7x3KhIqC/5693QsfBf5N1pWVPMh1Oe2kGsqwYHh5NqYUwLvowXM5F+2g96agZsX+kb0ccfFTP3iPSeh2YISqsGbu1XfEDvz8NUiDL2+cB/zNaSEz2DuKQPfjCmA5amQ1uMUdpyDxHCyv76mEcUbYyAPSpZYdX+RAtsxLT19kvBpOCQ4Baj8wj9KZYEESFjmFAbwcUTtss0dmzToVPfVR+8k49vHEF8nUlvRtVcVvEADzV1tVRRqYpTnm4bvgYN039qqc4zEhjuRVIFqqR6mdfLyfSi7zqa2xDEGBzjf0i/9ZBvhAadu4D8uDl5QjbTsZYaJDA==" NoCertificadoSAT="00001000000505750848" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
+
