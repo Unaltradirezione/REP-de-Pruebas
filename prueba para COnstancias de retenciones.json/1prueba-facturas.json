@@ -1,0 +1,3546 @@
+[
+    {
+      "user_id": 498107,
+      "id": 2079,
+      "fft_id": 7401,
+      "user_id_2": 498107,
+      "year": 2024,
+      "month": 9,
+      "platec_income": {
+        "invoiceIncome": {
+          "total": 13441.48,
+          "invoices": [
+            {
+              "uuid": "414c837b-11c0-43c2-934f-9f2d8a8f7794",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F414c837b-11c0-43c2-934f-9f2d8a8f7794.pdf",
+              "category": "Servicios de entrega local de cartas o paquetes pequeños",
+              "tax_rate": 0.16,
+              "tax_type": "002",
+              "issued_at": "2024-09-16T13:23:45.000Z",
+              "tax_amount": 679.02339,
+              "description": "Prestación de servicios",
+              "issuer_code": "GANM800508G66",
+              "issuer_name": "MOISES GARCIA NEGRETE",
+              "related_code": null,
+              "related_uuid": null,
+              "total_amount": 4243.87,
+              "receiver_code": "DCM991109KR2",
+              "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "payment_amount": null,
+              "discount_amount": null,
+              "invoice_item_id": 85299278,
+              "subtotal_amount": 4243.87,
+              "retention_amount": null,
+              "product_identification": "78102205"
+            },
+            {
+              "uuid": "ff271ffb-b771-495e-a718-34eb5d224f25",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Fff271ffb-b771-495e-a718-34eb5d224f25.pdf",
+              "category": "Servicios de entrega local de cartas o paquetes pequeños",
+              "tax_rate": 0.16,
+              "tax_type": "002",
+              "issued_at": "2024-09-09T10:32:34.000Z",
+              "tax_amount": 945.45472,
+              "description": "Prestación de servicios",
+              "issuer_code": "GANM800508G66",
+              "issuer_name": "MOISES GARCIA NEGRETE",
+              "related_code": null,
+              "related_uuid": null,
+              "total_amount": 5909.09,
+              "receiver_code": "DCM991109KR2",
+              "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "payment_amount": null,
+              "discount_amount": null,
+              "invoice_item_id": 85299290,
+              "subtotal_amount": 5909.09,
+              "retention_amount": null,
+              "product_identification": "78102205"
+            },
+            {
+              "uuid": "d484e1ca-015c-464e-a4d7-97b6a048ee88",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Fd484e1ca-015c-464e-a4d7-97b6a048ee88.pdf",
+              "category": "Servicios de entrega local de cartas o paquetes pequeños",
+              "tax_rate": 0.16,
+              "tax_type": "002",
+              "issued_at": "2024-09-02T11:32:26.000Z",
+              "tax_amount": 526.16263,
+              "description": "Prestación de servicios",
+              "issuer_code": "GANM800508G66",
+              "issuer_name": "MOISES GARCIA NEGRETE",
+              "related_code": null,
+              "related_uuid": null,
+              "total_amount": 3288.52,
+              "receiver_code": "DCM991109KR2",
+              "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "payment_amount": null,
+              "discount_amount": null,
+              "invoice_item_id": 85299289,
+              "subtotal_amount": 3288.52,
+              "retention_amount": null,
+              "product_identification": "78102205"
+            }
+          ]
+        },
+        "retentionIncome": {
+          "total": 13441.48,
+          "retentions": [
+            {
+              "uuid": "879c6312-8a45-40a9-8741-7fd2c505ffd2",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2F653742d5-c015-41f7-9c56-cb311385ea14.xml",
+              "issued_at": "2024-10-04T18:41:24.000Z",
+              "period_to": "2024-09-30T23:59:59.999Z",
+              "issuer_code": "DCM991109KR2",
+              "issuer_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "period_from": "2024-09-01T00:00:00.000Z",
+              "service_type": "03",
+              "total_taxable_amount": 13441.48
+            }
+          ]
+        }
+      },
+      "platec_income_previous": {
+        "invoicePreviousIncome": {
+          "invoices": [
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [
+                {
+                  "uuid": "18f27b03-e907-48d4-81a4-3b458202f2fb",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F18f27b03-e907-48d4-81a4-3b458202f2fb.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-07-29T12:24:14.000Z",
+                  "tax_amount": 1024.75512,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 6404.66,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299283,
+                  "subtotal_amount": 6404.66,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "1e929da2-8639-4e9e-9677-c26f59beedb6",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F1e929da2-8639-4e9e-9677-c26f59beedb6.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-07-22T11:23:27.000Z",
+                  "tax_amount": 506.48253,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 3165.51,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299284,
+                  "subtotal_amount": 3165.51,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                }
+              ],
+              "sumAmmount": 9570.17
+            },
+            {
+              "invoice": [
+                {
+                  "uuid": "2cf68a9b-5c04-4ac8-a50c-26aeed1500ee",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F2cf68a9b-5c04-4ac8-a50c-26aeed1500ee.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-08-26T09:40:38.000Z",
+                  "tax_amount": 858.37429,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 5364.8,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299288,
+                  "subtotal_amount": 5364.8,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "502edf72-1c03-479b-9238-1dc6f97cdedd",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F502edf72-1c03-479b-9238-1dc6f97cdedd.pdf",
+                  "category": "Servicios de facturación",
+                  "tax_rate": null,
+                  "tax_type": null,
+                  "issued_at": "2024-08-20T12:23:03.000Z",
+                  "tax_amount": 1024.75,
+                  "description": "Pago",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": "18f27b03-e907-48d4-81a4-3b458202f2fb",
+                  "total_amount": 6404.66,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": 6782.54,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299285,
+                  "subtotal_amount": 6404.66,
+                  "retention_amount": null,
+                  "product_identification": "84111506"
+                },
+                {
+                  "uuid": "569573c4-b8ab-417f-9c94-5ebd7a7e51be",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F569573c4-b8ab-417f-9c94-5ebd7a7e51be.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-08-19T09:50:08.000Z",
+                  "tax_amount": 1005.44502,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 6283.97,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299287,
+                  "subtotal_amount": 6283.97,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "f4b04cd9-d87b-49fd-b2e8-5a0739c54712",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Ff4b04cd9-d87b-49fd-b2e8-5a0739c54712.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-08-12T14:32:55.000Z",
+                  "tax_amount": 793.37396,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 4958.54,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299286,
+                  "subtotal_amount": 4958.54,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "fc270f74-8056-46ec-a3f0-fba3635be1c9",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Ffc270f74-8056-46ec-a3f0-fba3635be1c9.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-08-05T15:42:52.000Z",
+                  "tax_amount": 1023.58511,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 6397.35,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299282,
+                  "subtotal_amount": 6397.35,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                }
+              ],
+              "sumAmmount": 29409.32
+            },
+            {
+              "invoice": [
+                {
+                  "uuid": "414c837b-11c0-43c2-934f-9f2d8a8f7794",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F414c837b-11c0-43c2-934f-9f2d8a8f7794.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-09-16T13:23:45.000Z",
+                  "tax_amount": 679.02339,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 4243.87,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299278,
+                  "subtotal_amount": 4243.87,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "ff271ffb-b771-495e-a718-34eb5d224f25",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Fff271ffb-b771-495e-a718-34eb5d224f25.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-09-09T10:32:34.000Z",
+                  "tax_amount": 945.45472,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 5909.09,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299290,
+                  "subtotal_amount": 5909.09,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "d484e1ca-015c-464e-a4d7-97b6a048ee88",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Fd484e1ca-015c-464e-a4d7-97b6a048ee88.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-09-02T11:32:26.000Z",
+                  "tax_amount": 526.16263,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 3288.52,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299289,
+                  "subtotal_amount": 3288.52,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                }
+              ],
+              "sumAmmount": 13441.48
+            }
+          ]
+        },
+        "retentionPreviousIncome": {
+          "retentions": [
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [
+                {
+                  "uuid": "ac72719b-43a9-5ac6-9631-acd857dfcd69",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2F31b9e553-772a-4e9b-83bd-9c1504d955cf.xml",
+                  "issued_at": "2024-08-04T22:13:43.000Z",
+                  "period_to": "2024-07-31T23:59:59.999Z",
+                  "issuer_code": "UBV121024TN8",
+                  "issuer_name": "UBER B.V.",
+                  "period_from": "2024-07-01T00:00:00.000Z",
+                  "service_type": "01",
+                  "total_taxable_amount": 63.81
+                }
+              ],
+              "sumAmmount": 63.81
+            },
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [
+                {
+                  "uuid": "7e832fa7-081a-4a63-9381-3c9ae982ab64",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2F68e70e94-8809-4de8-b4b8-5334b91ccb6e.xml",
+                  "issued_at": "2024-10-08T14:39:53.000Z",
+                  "period_to": "2024-09-30T23:59:59.999Z",
+                  "issuer_code": "TRA150604TW1",
+                  "issuer_name": "TECNOLOGIAS RAPPI",
+                  "period_from": "2024-09-01T00:00:00.000Z",
+                  "service_type": "02",
+                  "total_taxable_amount": 193.91
+                },
+                {
+                  "uuid": "bc3d10d9-2fdb-4c3c-a640-1c80e2200cb1",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2Fb38f69c0-2b0b-41d1-9d52-438a2c91cc9f.xml",
+                  "issued_at": "2024-10-02T08:54:31.000Z",
+                  "period_to": "2024-09-30T23:59:59.999Z",
+                  "issuer_code": "DMI1712045J9",
+                  "issuer_name": "DiDi Mobility Information Technology PTE LTD",
+                  "period_from": "2024-09-01T00:00:00.000Z",
+                  "service_type": "01",
+                  "total_taxable_amount": 106.77
+                }
+              ],
+              "sumAmmount": 300.68
+            }
+          ]
+        }
+      },
+      "resico_income": {
+        "invoiceIncome": {
+          "total": 14234.52,
+          "invoices": [
+            {
+              "name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "total": 4494.26,
+              "usage": "G03",
+              "user_id": 498107,
+              "issued_at": "2024-09-16T13:23:45.000Z",
+              "payment_type": "PUE",
+              "payment_method": "03"
+            },
+            {
+              "name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "total": 6257.72,
+              "usage": "G03",
+              "user_id": 498107,
+              "issued_at": "2024-09-09T10:32:34.000Z",
+              "payment_type": "PUE",
+              "payment_method": "03"
+            },
+            {
+              "name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "total": 3482.54,
+              "usage": "G03",
+              "user_id": 498107,
+              "issued_at": "2024-09-02T11:32:26.000Z",
+              "payment_type": "PUE",
+              "payment_method": "03"
+            }
+          ]
+        }
+      },
+      "resico_income_previous": {},
+      "salary_income": {
+        "invoiceIncome": {
+          "total": 0,
+          "invoices": []
+        }
+      },
+      "salary_income_previous": {},
+      "other_income": null,
+      "created_at": "2024-10-14 20:53:08.627",
+      "id_2": 2103,
+      "fft_id_2": 7401,
+      "user_id_3": 498107,
+      "year_2": 2024,
+      "month_2": 9,
+      "total_expense": {
+        "total": 1000,
+        "expenses": [
+          {
+            "id": 53840823,
+            "tax": null,
+            "type": "I",
+            "uuid": "71eadec8-3849-4021-ab24-71ebf21aaa9c",
+            "total": 0,
+            "usage": "S01",
+            "user_id": 498107,
+            "subtotal": 0.01,
+            "issued_at": "2024-09-09T12:48:12.000Z",
+            "isser_name": "BBVA BANCOMER, S.A.",
+            "description": "Servicios de Facturación",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "03"
+          },
+          {
+            "id": 54982675,
+            "tax": 134.13,
+            "type": "I",
+            "uuid": "8ab176ab-b8a6-4e01-ba8c-ca22185e364e",
+            "total": 1000,
+            "usage": "G03",
+            "user_id": 498107,
+            "subtotal": 865.87,
+            "issued_at": "2024-09-28T19:16:13.000Z",
+            "isser_name": "ESTACION DE SERVICIO ARIEL SA DE CV",
+            "description": "PREMIUM",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "28"
+          }
+        ]
+      },
+      "created_at_2": "2024-10-14 20:53:08.629",
+      "id_3": 2091,
+      "fft_id_3": 7402,
+      "user_id_4": 498107,
+      "year_3": 2024,
+      "month_3": 7,
+      "based_deductibles": {
+        "deductions": [],
+        "not_deductions": [
+          {
+            "id": 53840812,
+            "tax": null,
+            "type": "I",
+            "uuid": "9f44aea6-5dd8-460a-a855-566d0f4f868a",
+            "total": 0,
+            "usage": "S01",
+            "user_id": 498107,
+            "subtotal": 0.01,
+            "issued_at": "2024-07-06T12:19:25.000Z",
+            "isser_name": "BBVA BANCOMER, S.A.",
+            "tax_amount": null,
+            "description": "Servicios de Facturación",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "03"
+          }
+        ],
+        "totalDeductible": 0
+      },
+      "created_at_3": "2024-10-14 14:07:18.235",
+      "id_4": 2834,
+      "fft_id_4": 7402,
+      "user_id_5": 498107,
+      "period": "2024-7",
+      "incomes": 12735.68,
+      "expenses": 0,
+      "deductions": 0,
+      "created_at_4": "2024-10-16 14:53:13.502",
+      "updated_at": "2024-10-16 14:53:13.502"
+    },
+    {
+      "user_id": 498107,
+      "id": 2079,
+      "fft_id": 7401,
+      "user_id_2": 498107,
+      "year": 2024,
+      "month": 9,
+      "platec_income": {
+        "invoiceIncome": {
+          "total": 13441.48,
+          "invoices": [
+            {
+              "uuid": "414c837b-11c0-43c2-934f-9f2d8a8f7794",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F414c837b-11c0-43c2-934f-9f2d8a8f7794.pdf",
+              "category": "Servicios de entrega local de cartas o paquetes pequeños",
+              "tax_rate": 0.16,
+              "tax_type": "002",
+              "issued_at": "2024-09-16T13:23:45.000Z",
+              "tax_amount": 679.02339,
+              "description": "Prestación de servicios",
+              "issuer_code": "GANM800508G66",
+              "issuer_name": "MOISES GARCIA NEGRETE",
+              "related_code": null,
+              "related_uuid": null,
+              "total_amount": 4243.87,
+              "receiver_code": "DCM991109KR2",
+              "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "payment_amount": null,
+              "discount_amount": null,
+              "invoice_item_id": 85299278,
+              "subtotal_amount": 4243.87,
+              "retention_amount": null,
+              "product_identification": "78102205"
+            },
+            {
+              "uuid": "ff271ffb-b771-495e-a718-34eb5d224f25",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Fff271ffb-b771-495e-a718-34eb5d224f25.pdf",
+              "category": "Servicios de entrega local de cartas o paquetes pequeños",
+              "tax_rate": 0.16,
+              "tax_type": "002",
+              "issued_at": "2024-09-09T10:32:34.000Z",
+              "tax_amount": 945.45472,
+              "description": "Prestación de servicios",
+              "issuer_code": "GANM800508G66",
+              "issuer_name": "MOISES GARCIA NEGRETE",
+              "related_code": null,
+              "related_uuid": null,
+              "total_amount": 5909.09,
+              "receiver_code": "DCM991109KR2",
+              "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "payment_amount": null,
+              "discount_amount": null,
+              "invoice_item_id": 85299290,
+              "subtotal_amount": 5909.09,
+              "retention_amount": null,
+              "product_identification": "78102205"
+            },
+            {
+              "uuid": "d484e1ca-015c-464e-a4d7-97b6a048ee88",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Fd484e1ca-015c-464e-a4d7-97b6a048ee88.pdf",
+              "category": "Servicios de entrega local de cartas o paquetes pequeños",
+              "tax_rate": 0.16,
+              "tax_type": "002",
+              "issued_at": "2024-09-02T11:32:26.000Z",
+              "tax_amount": 526.16263,
+              "description": "Prestación de servicios",
+              "issuer_code": "GANM800508G66",
+              "issuer_name": "MOISES GARCIA NEGRETE",
+              "related_code": null,
+              "related_uuid": null,
+              "total_amount": 3288.52,
+              "receiver_code": "DCM991109KR2",
+              "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "payment_amount": null,
+              "discount_amount": null,
+              "invoice_item_id": 85299289,
+              "subtotal_amount": 3288.52,
+              "retention_amount": null,
+              "product_identification": "78102205"
+            }
+          ]
+        },
+        "retentionIncome": {
+          "total": 13441.48,
+          "retentions": [
+            {
+              "uuid": "879c6312-8a45-40a9-8741-7fd2c505ffd2",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2F653742d5-c015-41f7-9c56-cb311385ea14.xml",
+              "issued_at": "2024-10-04T18:41:24.000Z",
+              "period_to": "2024-09-30T23:59:59.999Z",
+              "issuer_code": "DCM991109KR2",
+              "issuer_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "period_from": "2024-09-01T00:00:00.000Z",
+              "service_type": "03",
+              "total_taxable_amount": 13441.48
+            }
+          ]
+        }
+      },
+      "platec_income_previous": {
+        "invoicePreviousIncome": {
+          "invoices": [
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [
+                {
+                  "uuid": "18f27b03-e907-48d4-81a4-3b458202f2fb",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F18f27b03-e907-48d4-81a4-3b458202f2fb.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-07-29T12:24:14.000Z",
+                  "tax_amount": 1024.75512,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 6404.66,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299283,
+                  "subtotal_amount": 6404.66,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "1e929da2-8639-4e9e-9677-c26f59beedb6",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F1e929da2-8639-4e9e-9677-c26f59beedb6.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-07-22T11:23:27.000Z",
+                  "tax_amount": 506.48253,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 3165.51,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299284,
+                  "subtotal_amount": 3165.51,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                }
+              ],
+              "sumAmmount": 9570.17
+            },
+            {
+              "invoice": [
+                {
+                  "uuid": "2cf68a9b-5c04-4ac8-a50c-26aeed1500ee",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F2cf68a9b-5c04-4ac8-a50c-26aeed1500ee.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-08-26T09:40:38.000Z",
+                  "tax_amount": 858.37429,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 5364.8,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299288,
+                  "subtotal_amount": 5364.8,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "502edf72-1c03-479b-9238-1dc6f97cdedd",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F502edf72-1c03-479b-9238-1dc6f97cdedd.pdf",
+                  "category": "Servicios de facturación",
+                  "tax_rate": null,
+                  "tax_type": null,
+                  "issued_at": "2024-08-20T12:23:03.000Z",
+                  "tax_amount": 1024.75,
+                  "description": "Pago",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": "18f27b03-e907-48d4-81a4-3b458202f2fb",
+                  "total_amount": 6404.66,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": 6782.54,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299285,
+                  "subtotal_amount": 6404.66,
+                  "retention_amount": null,
+                  "product_identification": "84111506"
+                },
+                {
+                  "uuid": "569573c4-b8ab-417f-9c94-5ebd7a7e51be",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F569573c4-b8ab-417f-9c94-5ebd7a7e51be.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-08-19T09:50:08.000Z",
+                  "tax_amount": 1005.44502,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 6283.97,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299287,
+                  "subtotal_amount": 6283.97,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "f4b04cd9-d87b-49fd-b2e8-5a0739c54712",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Ff4b04cd9-d87b-49fd-b2e8-5a0739c54712.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-08-12T14:32:55.000Z",
+                  "tax_amount": 793.37396,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 4958.54,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299286,
+                  "subtotal_amount": 4958.54,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "fc270f74-8056-46ec-a3f0-fba3635be1c9",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Ffc270f74-8056-46ec-a3f0-fba3635be1c9.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-08-05T15:42:52.000Z",
+                  "tax_amount": 1023.58511,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 6397.35,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299282,
+                  "subtotal_amount": 6397.35,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                }
+              ],
+              "sumAmmount": 29409.32
+            },
+            {
+              "invoice": [
+                {
+                  "uuid": "414c837b-11c0-43c2-934f-9f2d8a8f7794",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F414c837b-11c0-43c2-934f-9f2d8a8f7794.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-09-16T13:23:45.000Z",
+                  "tax_amount": 679.02339,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 4243.87,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299278,
+                  "subtotal_amount": 4243.87,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "ff271ffb-b771-495e-a718-34eb5d224f25",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Fff271ffb-b771-495e-a718-34eb5d224f25.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-09-09T10:32:34.000Z",
+                  "tax_amount": 945.45472,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 5909.09,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299290,
+                  "subtotal_amount": 5909.09,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "d484e1ca-015c-464e-a4d7-97b6a048ee88",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Fd484e1ca-015c-464e-a4d7-97b6a048ee88.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-09-02T11:32:26.000Z",
+                  "tax_amount": 526.16263,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 3288.52,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299289,
+                  "subtotal_amount": 3288.52,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                }
+              ],
+              "sumAmmount": 13441.48
+            }
+          ]
+        },
+        "retentionPreviousIncome": {
+          "retentions": [
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [
+                {
+                  "uuid": "ac72719b-43a9-5ac6-9631-acd857dfcd69",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2F31b9e553-772a-4e9b-83bd-9c1504d955cf.xml",
+                  "issued_at": "2024-08-04T22:13:43.000Z",
+                  "period_to": "2024-07-31T23:59:59.999Z",
+                  "issuer_code": "UBV121024TN8",
+                  "issuer_name": "UBER B.V.",
+                  "period_from": "2024-07-01T00:00:00.000Z",
+                  "service_type": "01",
+                  "total_taxable_amount": 63.81
+                }
+              ],
+              "sumAmmount": 63.81
+            },
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [
+                {
+                  "uuid": "7e832fa7-081a-4a63-9381-3c9ae982ab64",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2F68e70e94-8809-4de8-b4b8-5334b91ccb6e.xml",
+                  "issued_at": "2024-10-08T14:39:53.000Z",
+                  "period_to": "2024-09-30T23:59:59.999Z",
+                  "issuer_code": "TRA150604TW1",
+                  "issuer_name": "TECNOLOGIAS RAPPI",
+                  "period_from": "2024-09-01T00:00:00.000Z",
+                  "service_type": "02",
+                  "total_taxable_amount": 193.91
+                },
+                {
+                  "uuid": "bc3d10d9-2fdb-4c3c-a640-1c80e2200cb1",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2Fb38f69c0-2b0b-41d1-9d52-438a2c91cc9f.xml",
+                  "issued_at": "2024-10-02T08:54:31.000Z",
+                  "period_to": "2024-09-30T23:59:59.999Z",
+                  "issuer_code": "DMI1712045J9",
+                  "issuer_name": "DiDi Mobility Information Technology PTE LTD",
+                  "period_from": "2024-09-01T00:00:00.000Z",
+                  "service_type": "01",
+                  "total_taxable_amount": 106.77
+                }
+              ],
+              "sumAmmount": 300.68
+            }
+          ]
+        }
+      },
+      "resico_income": {
+        "invoiceIncome": {
+          "total": 14234.52,
+          "invoices": [
+            {
+              "name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "total": 4494.26,
+              "usage": "G03",
+              "user_id": 498107,
+              "issued_at": "2024-09-16T13:23:45.000Z",
+              "payment_type": "PUE",
+              "payment_method": "03"
+            },
+            {
+              "name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "total": 6257.72,
+              "usage": "G03",
+              "user_id": 498107,
+              "issued_at": "2024-09-09T10:32:34.000Z",
+              "payment_type": "PUE",
+              "payment_method": "03"
+            },
+            {
+              "name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "total": 3482.54,
+              "usage": "G03",
+              "user_id": 498107,
+              "issued_at": "2024-09-02T11:32:26.000Z",
+              "payment_type": "PUE",
+              "payment_method": "03"
+            }
+          ]
+        }
+      },
+      "resico_income_previous": {},
+      "salary_income": {
+        "invoiceIncome": {
+          "total": 0,
+          "invoices": []
+        }
+      },
+      "salary_income_previous": {},
+      "other_income": null,
+      "created_at": "2024-10-14 20:53:08.627",
+      "id_2": 2103,
+      "fft_id_2": 7401,
+      "user_id_3": 498107,
+      "year_2": 2024,
+      "month_2": 9,
+      "total_expense": {
+        "total": 1000,
+        "expenses": [
+          {
+            "id": 53840823,
+            "tax": null,
+            "type": "I",
+            "uuid": "71eadec8-3849-4021-ab24-71ebf21aaa9c",
+            "total": 0,
+            "usage": "S01",
+            "user_id": 498107,
+            "subtotal": 0.01,
+            "issued_at": "2024-09-09T12:48:12.000Z",
+            "isser_name": "BBVA BANCOMER, S.A.",
+            "description": "Servicios de Facturación",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "03"
+          },
+          {
+            "id": 54982675,
+            "tax": 134.13,
+            "type": "I",
+            "uuid": "8ab176ab-b8a6-4e01-ba8c-ca22185e364e",
+            "total": 1000,
+            "usage": "G03",
+            "user_id": 498107,
+            "subtotal": 865.87,
+            "issued_at": "2024-09-28T19:16:13.000Z",
+            "isser_name": "ESTACION DE SERVICIO ARIEL SA DE CV",
+            "description": "PREMIUM",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "28"
+          }
+        ]
+      },
+      "created_at_2": "2024-10-14 20:53:08.629",
+      "id_3": 2085,
+      "fft_id_3": 7401,
+      "user_id_4": 498107,
+      "year_3": 2024,
+      "month_3": 9,
+      "based_deductibles": {
+        "deductions": [],
+        "not_deductions": [
+          {
+            "id": 53840823,
+            "tax": null,
+            "type": "I",
+            "uuid": "71eadec8-3849-4021-ab24-71ebf21aaa9c",
+            "total": 0,
+            "usage": "S01",
+            "user_id": 498107,
+            "subtotal": 0.01,
+            "issued_at": "2024-09-09T12:48:12.000Z",
+            "isser_name": "BBVA BANCOMER, S.A.",
+            "description": "Servicios de Facturación",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "03"
+          },
+          {
+            "id": 54982675,
+            "tax": 134.13,
+            "type": "I",
+            "uuid": "8ab176ab-b8a6-4e01-ba8c-ca22185e364e",
+            "total": 1000,
+            "usage": "G03",
+            "user_id": 498107,
+            "subtotal": 865.87,
+            "issued_at": "2024-09-28T19:16:13.000Z",
+            "isser_name": "ESTACION DE SERVICIO ARIEL SA DE CV",
+            "description": "PREMIUM",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "28"
+          }
+        ],
+        "totalDeductible": 0
+      },
+      "created_at_3": "2024-10-14 14:06:59.486",
+      "id_4": 2834,
+      "fft_id_4": 7402,
+      "user_id_5": 498107,
+      "period": "2024-7",
+      "incomes": 12735.68,
+      "expenses": 0,
+      "deductions": 0,
+      "created_at_4": "2024-10-16 14:53:13.502",
+      "updated_at": "2024-10-16 14:53:13.502"
+    },
+    {
+      "user_id": 498107,
+      "id": 2079,
+      "fft_id": 7401,
+      "user_id_2": 498107,
+      "year": 2024,
+      "month": 9,
+      "platec_income": {
+        "invoiceIncome": {
+          "total": 13441.48,
+          "invoices": [
+            {
+              "uuid": "414c837b-11c0-43c2-934f-9f2d8a8f7794",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F414c837b-11c0-43c2-934f-9f2d8a8f7794.pdf",
+              "category": "Servicios de entrega local de cartas o paquetes pequeños",
+              "tax_rate": 0.16,
+              "tax_type": "002",
+              "issued_at": "2024-09-16T13:23:45.000Z",
+              "tax_amount": 679.02339,
+              "description": "Prestación de servicios",
+              "issuer_code": "GANM800508G66",
+              "issuer_name": "MOISES GARCIA NEGRETE",
+              "related_code": null,
+              "related_uuid": null,
+              "total_amount": 4243.87,
+              "receiver_code": "DCM991109KR2",
+              "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "payment_amount": null,
+              "discount_amount": null,
+              "invoice_item_id": 85299278,
+              "subtotal_amount": 4243.87,
+              "retention_amount": null,
+              "product_identification": "78102205"
+            },
+            {
+              "uuid": "ff271ffb-b771-495e-a718-34eb5d224f25",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Fff271ffb-b771-495e-a718-34eb5d224f25.pdf",
+              "category": "Servicios de entrega local de cartas o paquetes pequeños",
+              "tax_rate": 0.16,
+              "tax_type": "002",
+              "issued_at": "2024-09-09T10:32:34.000Z",
+              "tax_amount": 945.45472,
+              "description": "Prestación de servicios",
+              "issuer_code": "GANM800508G66",
+              "issuer_name": "MOISES GARCIA NEGRETE",
+              "related_code": null,
+              "related_uuid": null,
+              "total_amount": 5909.09,
+              "receiver_code": "DCM991109KR2",
+              "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "payment_amount": null,
+              "discount_amount": null,
+              "invoice_item_id": 85299290,
+              "subtotal_amount": 5909.09,
+              "retention_amount": null,
+              "product_identification": "78102205"
+            },
+            {
+              "uuid": "d484e1ca-015c-464e-a4d7-97b6a048ee88",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Fd484e1ca-015c-464e-a4d7-97b6a048ee88.pdf",
+              "category": "Servicios de entrega local de cartas o paquetes pequeños",
+              "tax_rate": 0.16,
+              "tax_type": "002",
+              "issued_at": "2024-09-02T11:32:26.000Z",
+              "tax_amount": 526.16263,
+              "description": "Prestación de servicios",
+              "issuer_code": "GANM800508G66",
+              "issuer_name": "MOISES GARCIA NEGRETE",
+              "related_code": null,
+              "related_uuid": null,
+              "total_amount": 3288.52,
+              "receiver_code": "DCM991109KR2",
+              "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "payment_amount": null,
+              "discount_amount": null,
+              "invoice_item_id": 85299289,
+              "subtotal_amount": 3288.52,
+              "retention_amount": null,
+              "product_identification": "78102205"
+            }
+          ]
+        },
+        "retentionIncome": {
+          "total": 13441.48,
+          "retentions": [
+            {
+              "uuid": "879c6312-8a45-40a9-8741-7fd2c505ffd2",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2F653742d5-c015-41f7-9c56-cb311385ea14.xml",
+              "issued_at": "2024-10-04T18:41:24.000Z",
+              "period_to": "2024-09-30T23:59:59.999Z",
+              "issuer_code": "DCM991109KR2",
+              "issuer_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "period_from": "2024-09-01T00:00:00.000Z",
+              "service_type": "03",
+              "total_taxable_amount": 13441.48
+            }
+          ]
+        }
+      },
+      "platec_income_previous": {
+        "invoicePreviousIncome": {
+          "invoices": [
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [
+                {
+                  "uuid": "18f27b03-e907-48d4-81a4-3b458202f2fb",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F18f27b03-e907-48d4-81a4-3b458202f2fb.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-07-29T12:24:14.000Z",
+                  "tax_amount": 1024.75512,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 6404.66,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299283,
+                  "subtotal_amount": 6404.66,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "1e929da2-8639-4e9e-9677-c26f59beedb6",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F1e929da2-8639-4e9e-9677-c26f59beedb6.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-07-22T11:23:27.000Z",
+                  "tax_amount": 506.48253,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 3165.51,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299284,
+                  "subtotal_amount": 3165.51,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                }
+              ],
+              "sumAmmount": 9570.17
+            },
+            {
+              "invoice": [
+                {
+                  "uuid": "2cf68a9b-5c04-4ac8-a50c-26aeed1500ee",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F2cf68a9b-5c04-4ac8-a50c-26aeed1500ee.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-08-26T09:40:38.000Z",
+                  "tax_amount": 858.37429,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 5364.8,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299288,
+                  "subtotal_amount": 5364.8,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "502edf72-1c03-479b-9238-1dc6f97cdedd",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F502edf72-1c03-479b-9238-1dc6f97cdedd.pdf",
+                  "category": "Servicios de facturación",
+                  "tax_rate": null,
+                  "tax_type": null,
+                  "issued_at": "2024-08-20T12:23:03.000Z",
+                  "tax_amount": 1024.75,
+                  "description": "Pago",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": "18f27b03-e907-48d4-81a4-3b458202f2fb",
+                  "total_amount": 6404.66,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": 6782.54,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299285,
+                  "subtotal_amount": 6404.66,
+                  "retention_amount": null,
+                  "product_identification": "84111506"
+                },
+                {
+                  "uuid": "569573c4-b8ab-417f-9c94-5ebd7a7e51be",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F569573c4-b8ab-417f-9c94-5ebd7a7e51be.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-08-19T09:50:08.000Z",
+                  "tax_amount": 1005.44502,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 6283.97,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299287,
+                  "subtotal_amount": 6283.97,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "f4b04cd9-d87b-49fd-b2e8-5a0739c54712",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Ff4b04cd9-d87b-49fd-b2e8-5a0739c54712.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-08-12T14:32:55.000Z",
+                  "tax_amount": 793.37396,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 4958.54,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299286,
+                  "subtotal_amount": 4958.54,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "fc270f74-8056-46ec-a3f0-fba3635be1c9",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Ffc270f74-8056-46ec-a3f0-fba3635be1c9.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-08-05T15:42:52.000Z",
+                  "tax_amount": 1023.58511,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 6397.35,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299282,
+                  "subtotal_amount": 6397.35,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                }
+              ],
+              "sumAmmount": 29409.32
+            },
+            {
+              "invoice": [
+                {
+                  "uuid": "414c837b-11c0-43c2-934f-9f2d8a8f7794",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F414c837b-11c0-43c2-934f-9f2d8a8f7794.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-09-16T13:23:45.000Z",
+                  "tax_amount": 679.02339,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 4243.87,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299278,
+                  "subtotal_amount": 4243.87,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "ff271ffb-b771-495e-a718-34eb5d224f25",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Fff271ffb-b771-495e-a718-34eb5d224f25.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-09-09T10:32:34.000Z",
+                  "tax_amount": 945.45472,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 5909.09,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299290,
+                  "subtotal_amount": 5909.09,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "d484e1ca-015c-464e-a4d7-97b6a048ee88",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Fd484e1ca-015c-464e-a4d7-97b6a048ee88.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-09-02T11:32:26.000Z",
+                  "tax_amount": 526.16263,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 3288.52,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299289,
+                  "subtotal_amount": 3288.52,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                }
+              ],
+              "sumAmmount": 13441.48
+            }
+          ]
+        },
+        "retentionPreviousIncome": {
+          "retentions": [
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [
+                {
+                  "uuid": "ac72719b-43a9-5ac6-9631-acd857dfcd69",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2F31b9e553-772a-4e9b-83bd-9c1504d955cf.xml",
+                  "issued_at": "2024-08-04T22:13:43.000Z",
+                  "period_to": "2024-07-31T23:59:59.999Z",
+                  "issuer_code": "UBV121024TN8",
+                  "issuer_name": "UBER B.V.",
+                  "period_from": "2024-07-01T00:00:00.000Z",
+                  "service_type": "01",
+                  "total_taxable_amount": 63.81
+                }
+              ],
+              "sumAmmount": 63.81
+            },
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [
+                {
+                  "uuid": "7e832fa7-081a-4a63-9381-3c9ae982ab64",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2F68e70e94-8809-4de8-b4b8-5334b91ccb6e.xml",
+                  "issued_at": "2024-10-08T14:39:53.000Z",
+                  "period_to": "2024-09-30T23:59:59.999Z",
+                  "issuer_code": "TRA150604TW1",
+                  "issuer_name": "TECNOLOGIAS RAPPI",
+                  "period_from": "2024-09-01T00:00:00.000Z",
+                  "service_type": "02",
+                  "total_taxable_amount": 193.91
+                },
+                {
+                  "uuid": "bc3d10d9-2fdb-4c3c-a640-1c80e2200cb1",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2Fb38f69c0-2b0b-41d1-9d52-438a2c91cc9f.xml",
+                  "issued_at": "2024-10-02T08:54:31.000Z",
+                  "period_to": "2024-09-30T23:59:59.999Z",
+                  "issuer_code": "DMI1712045J9",
+                  "issuer_name": "DiDi Mobility Information Technology PTE LTD",
+                  "period_from": "2024-09-01T00:00:00.000Z",
+                  "service_type": "01",
+                  "total_taxable_amount": 106.77
+                }
+              ],
+              "sumAmmount": 300.68
+            }
+          ]
+        }
+      },
+      "resico_income": {
+        "invoiceIncome": {
+          "total": 14234.52,
+          "invoices": [
+            {
+              "name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "total": 4494.26,
+              "usage": "G03",
+              "user_id": 498107,
+              "issued_at": "2024-09-16T13:23:45.000Z",
+              "payment_type": "PUE",
+              "payment_method": "03"
+            },
+            {
+              "name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "total": 6257.72,
+              "usage": "G03",
+              "user_id": 498107,
+              "issued_at": "2024-09-09T10:32:34.000Z",
+              "payment_type": "PUE",
+              "payment_method": "03"
+            },
+            {
+              "name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "total": 3482.54,
+              "usage": "G03",
+              "user_id": 498107,
+              "issued_at": "2024-09-02T11:32:26.000Z",
+              "payment_type": "PUE",
+              "payment_method": "03"
+            }
+          ]
+        }
+      },
+      "resico_income_previous": {},
+      "salary_income": {
+        "invoiceIncome": {
+          "total": 0,
+          "invoices": []
+        }
+      },
+      "salary_income_previous": {},
+      "other_income": null,
+      "created_at": "2024-10-14 20:53:08.627",
+      "id_2": 2109,
+      "fft_id_2": 7402,
+      "user_id_3": 498107,
+      "year_2": 2024,
+      "month_2": 7,
+      "total_expense": {
+        "total": 0,
+        "expenses": [
+          {
+            "id": 53840812,
+            "tax": null,
+            "type": "I",
+            "uuid": "9f44aea6-5dd8-460a-a855-566d0f4f868a",
+            "total": 0,
+            "usage": "S01",
+            "user_id": 498107,
+            "subtotal": 0.01,
+            "issued_at": "2024-07-06T12:19:25.000Z",
+            "isser_name": "BBVA BANCOMER, S.A.",
+            "tax_amount": null,
+            "description": "Servicios de Facturación",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "03"
+          }
+        ]
+      },
+      "created_at_2": "2024-10-16 14:53:12.762",
+      "id_3": 2091,
+      "fft_id_3": 7402,
+      "user_id_4": 498107,
+      "year_3": 2024,
+      "month_3": 7,
+      "based_deductibles": {
+        "deductions": [],
+        "not_deductions": [
+          {
+            "id": 53840812,
+            "tax": null,
+            "type": "I",
+            "uuid": "9f44aea6-5dd8-460a-a855-566d0f4f868a",
+            "total": 0,
+            "usage": "S01",
+            "user_id": 498107,
+            "subtotal": 0.01,
+            "issued_at": "2024-07-06T12:19:25.000Z",
+            "isser_name": "BBVA BANCOMER, S.A.",
+            "tax_amount": null,
+            "description": "Servicios de Facturación",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "03"
+          }
+        ],
+        "totalDeductible": 0
+      },
+      "created_at_3": "2024-10-14 14:07:18.235",
+      "id_4": 2834,
+      "fft_id_4": 7402,
+      "user_id_5": 498107,
+      "period": "2024-7",
+      "incomes": 12735.68,
+      "expenses": 0,
+      "deductions": 0,
+      "created_at_4": "2024-10-16 14:53:13.502",
+      "updated_at": "2024-10-16 14:53:13.502"
+    },
+    {
+      "user_id": 498107,
+      "id": 2079,
+      "fft_id": 7401,
+      "user_id_2": 498107,
+      "year": 2024,
+      "month": 9,
+      "platec_income": {
+        "invoiceIncome": {
+          "total": 13441.48,
+          "invoices": [
+            {
+              "uuid": "414c837b-11c0-43c2-934f-9f2d8a8f7794",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F414c837b-11c0-43c2-934f-9f2d8a8f7794.pdf",
+              "category": "Servicios de entrega local de cartas o paquetes pequeños",
+              "tax_rate": 0.16,
+              "tax_type": "002",
+              "issued_at": "2024-09-16T13:23:45.000Z",
+              "tax_amount": 679.02339,
+              "description": "Prestación de servicios",
+              "issuer_code": "GANM800508G66",
+              "issuer_name": "MOISES GARCIA NEGRETE",
+              "related_code": null,
+              "related_uuid": null,
+              "total_amount": 4243.87,
+              "receiver_code": "DCM991109KR2",
+              "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "payment_amount": null,
+              "discount_amount": null,
+              "invoice_item_id": 85299278,
+              "subtotal_amount": 4243.87,
+              "retention_amount": null,
+              "product_identification": "78102205"
+            },
+            {
+              "uuid": "ff271ffb-b771-495e-a718-34eb5d224f25",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Fff271ffb-b771-495e-a718-34eb5d224f25.pdf",
+              "category": "Servicios de entrega local de cartas o paquetes pequeños",
+              "tax_rate": 0.16,
+              "tax_type": "002",
+              "issued_at": "2024-09-09T10:32:34.000Z",
+              "tax_amount": 945.45472,
+              "description": "Prestación de servicios",
+              "issuer_code": "GANM800508G66",
+              "issuer_name": "MOISES GARCIA NEGRETE",
+              "related_code": null,
+              "related_uuid": null,
+              "total_amount": 5909.09,
+              "receiver_code": "DCM991109KR2",
+              "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "payment_amount": null,
+              "discount_amount": null,
+              "invoice_item_id": 85299290,
+              "subtotal_amount": 5909.09,
+              "retention_amount": null,
+              "product_identification": "78102205"
+            },
+            {
+              "uuid": "d484e1ca-015c-464e-a4d7-97b6a048ee88",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Fd484e1ca-015c-464e-a4d7-97b6a048ee88.pdf",
+              "category": "Servicios de entrega local de cartas o paquetes pequeños",
+              "tax_rate": 0.16,
+              "tax_type": "002",
+              "issued_at": "2024-09-02T11:32:26.000Z",
+              "tax_amount": 526.16263,
+              "description": "Prestación de servicios",
+              "issuer_code": "GANM800508G66",
+              "issuer_name": "MOISES GARCIA NEGRETE",
+              "related_code": null,
+              "related_uuid": null,
+              "total_amount": 3288.52,
+              "receiver_code": "DCM991109KR2",
+              "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "payment_amount": null,
+              "discount_amount": null,
+              "invoice_item_id": 85299289,
+              "subtotal_amount": 3288.52,
+              "retention_amount": null,
+              "product_identification": "78102205"
+            }
+          ]
+        },
+        "retentionIncome": {
+          "total": 13441.48,
+          "retentions": [
+            {
+              "uuid": "879c6312-8a45-40a9-8741-7fd2c505ffd2",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2F653742d5-c015-41f7-9c56-cb311385ea14.xml",
+              "issued_at": "2024-10-04T18:41:24.000Z",
+              "period_to": "2024-09-30T23:59:59.999Z",
+              "issuer_code": "DCM991109KR2",
+              "issuer_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "period_from": "2024-09-01T00:00:00.000Z",
+              "service_type": "03",
+              "total_taxable_amount": 13441.48
+            }
+          ]
+        }
+      },
+      "platec_income_previous": {
+        "invoicePreviousIncome": {
+          "invoices": [
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [
+                {
+                  "uuid": "18f27b03-e907-48d4-81a4-3b458202f2fb",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F18f27b03-e907-48d4-81a4-3b458202f2fb.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-07-29T12:24:14.000Z",
+                  "tax_amount": 1024.75512,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 6404.66,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299283,
+                  "subtotal_amount": 6404.66,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "1e929da2-8639-4e9e-9677-c26f59beedb6",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F1e929da2-8639-4e9e-9677-c26f59beedb6.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-07-22T11:23:27.000Z",
+                  "tax_amount": 506.48253,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 3165.51,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299284,
+                  "subtotal_amount": 3165.51,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                }
+              ],
+              "sumAmmount": 9570.17
+            },
+            {
+              "invoice": [
+                {
+                  "uuid": "2cf68a9b-5c04-4ac8-a50c-26aeed1500ee",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F2cf68a9b-5c04-4ac8-a50c-26aeed1500ee.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-08-26T09:40:38.000Z",
+                  "tax_amount": 858.37429,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 5364.8,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299288,
+                  "subtotal_amount": 5364.8,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "502edf72-1c03-479b-9238-1dc6f97cdedd",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F502edf72-1c03-479b-9238-1dc6f97cdedd.pdf",
+                  "category": "Servicios de facturación",
+                  "tax_rate": null,
+                  "tax_type": null,
+                  "issued_at": "2024-08-20T12:23:03.000Z",
+                  "tax_amount": 1024.75,
+                  "description": "Pago",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": "18f27b03-e907-48d4-81a4-3b458202f2fb",
+                  "total_amount": 6404.66,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": 6782.54,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299285,
+                  "subtotal_amount": 6404.66,
+                  "retention_amount": null,
+                  "product_identification": "84111506"
+                },
+                {
+                  "uuid": "569573c4-b8ab-417f-9c94-5ebd7a7e51be",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F569573c4-b8ab-417f-9c94-5ebd7a7e51be.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-08-19T09:50:08.000Z",
+                  "tax_amount": 1005.44502,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 6283.97,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299287,
+                  "subtotal_amount": 6283.97,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "f4b04cd9-d87b-49fd-b2e8-5a0739c54712",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Ff4b04cd9-d87b-49fd-b2e8-5a0739c54712.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-08-12T14:32:55.000Z",
+                  "tax_amount": 793.37396,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 4958.54,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299286,
+                  "subtotal_amount": 4958.54,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "fc270f74-8056-46ec-a3f0-fba3635be1c9",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Ffc270f74-8056-46ec-a3f0-fba3635be1c9.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-08-05T15:42:52.000Z",
+                  "tax_amount": 1023.58511,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 6397.35,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299282,
+                  "subtotal_amount": 6397.35,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                }
+              ],
+              "sumAmmount": 29409.32
+            },
+            {
+              "invoice": [
+                {
+                  "uuid": "414c837b-11c0-43c2-934f-9f2d8a8f7794",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F414c837b-11c0-43c2-934f-9f2d8a8f7794.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-09-16T13:23:45.000Z",
+                  "tax_amount": 679.02339,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 4243.87,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299278,
+                  "subtotal_amount": 4243.87,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "ff271ffb-b771-495e-a718-34eb5d224f25",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Fff271ffb-b771-495e-a718-34eb5d224f25.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-09-09T10:32:34.000Z",
+                  "tax_amount": 945.45472,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 5909.09,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299290,
+                  "subtotal_amount": 5909.09,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "d484e1ca-015c-464e-a4d7-97b6a048ee88",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2Fd484e1ca-015c-464e-a4d7-97b6a048ee88.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-09-02T11:32:26.000Z",
+                  "tax_amount": 526.16263,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 3288.52,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299289,
+                  "subtotal_amount": 3288.52,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                }
+              ],
+              "sumAmmount": 13441.48
+            }
+          ]
+        },
+        "retentionPreviousIncome": {
+          "retentions": [
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [
+                {
+                  "uuid": "ac72719b-43a9-5ac6-9631-acd857dfcd69",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2F31b9e553-772a-4e9b-83bd-9c1504d955cf.xml",
+                  "issued_at": "2024-08-04T22:13:43.000Z",
+                  "period_to": "2024-07-31T23:59:59.999Z",
+                  "issuer_code": "UBV121024TN8",
+                  "issuer_name": "UBER B.V.",
+                  "period_from": "2024-07-01T00:00:00.000Z",
+                  "service_type": "01",
+                  "total_taxable_amount": 63.81
+                }
+              ],
+              "sumAmmount": 63.81
+            },
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [
+                {
+                  "uuid": "7e832fa7-081a-4a63-9381-3c9ae982ab64",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2F68e70e94-8809-4de8-b4b8-5334b91ccb6e.xml",
+                  "issued_at": "2024-10-08T14:39:53.000Z",
+                  "period_to": "2024-09-30T23:59:59.999Z",
+                  "issuer_code": "TRA150604TW1",
+                  "issuer_name": "TECNOLOGIAS RAPPI",
+                  "period_from": "2024-09-01T00:00:00.000Z",
+                  "service_type": "02",
+                  "total_taxable_amount": 193.91
+                },
+                {
+                  "uuid": "bc3d10d9-2fdb-4c3c-a640-1c80e2200cb1",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2Fb38f69c0-2b0b-41d1-9d52-438a2c91cc9f.xml",
+                  "issued_at": "2024-10-02T08:54:31.000Z",
+                  "period_to": "2024-09-30T23:59:59.999Z",
+                  "issuer_code": "DMI1712045J9",
+                  "issuer_name": "DiDi Mobility Information Technology PTE LTD",
+                  "period_from": "2024-09-01T00:00:00.000Z",
+                  "service_type": "01",
+                  "total_taxable_amount": 106.77
+                }
+              ],
+              "sumAmmount": 300.68
+            }
+          ]
+        }
+      },
+      "resico_income": {
+        "invoiceIncome": {
+          "total": 14234.52,
+          "invoices": [
+            {
+              "name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "total": 4494.26,
+              "usage": "G03",
+              "user_id": 498107,
+              "issued_at": "2024-09-16T13:23:45.000Z",
+              "payment_type": "PUE",
+              "payment_method": "03"
+            },
+            {
+              "name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "total": 6257.72,
+              "usage": "G03",
+              "user_id": 498107,
+              "issued_at": "2024-09-09T10:32:34.000Z",
+              "payment_type": "PUE",
+              "payment_method": "03"
+            },
+            {
+              "name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "total": 3482.54,
+              "usage": "G03",
+              "user_id": 498107,
+              "issued_at": "2024-09-02T11:32:26.000Z",
+              "payment_type": "PUE",
+              "payment_method": "03"
+            }
+          ]
+        }
+      },
+      "resico_income_previous": {},
+      "salary_income": {
+        "invoiceIncome": {
+          "total": 0,
+          "invoices": []
+        }
+      },
+      "salary_income_previous": {},
+      "other_income": null,
+      "created_at": "2024-10-14 20:53:08.627",
+      "id_2": 2109,
+      "fft_id_2": 7402,
+      "user_id_3": 498107,
+      "year_2": 2024,
+      "month_2": 7,
+      "total_expense": {
+        "total": 0,
+        "expenses": [
+          {
+            "id": 53840812,
+            "tax": null,
+            "type": "I",
+            "uuid": "9f44aea6-5dd8-460a-a855-566d0f4f868a",
+            "total": 0,
+            "usage": "S01",
+            "user_id": 498107,
+            "subtotal": 0.01,
+            "issued_at": "2024-07-06T12:19:25.000Z",
+            "isser_name": "BBVA BANCOMER, S.A.",
+            "tax_amount": null,
+            "description": "Servicios de Facturación",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "03"
+          }
+        ]
+      },
+      "created_at_2": "2024-10-16 14:53:12.762",
+      "id_3": 2085,
+      "fft_id_3": 7401,
+      "user_id_4": 498107,
+      "year_3": 2024,
+      "month_3": 9,
+      "based_deductibles": {
+        "deductions": [],
+        "not_deductions": [
+          {
+            "id": 53840823,
+            "tax": null,
+            "type": "I",
+            "uuid": "71eadec8-3849-4021-ab24-71ebf21aaa9c",
+            "total": 0,
+            "usage": "S01",
+            "user_id": 498107,
+            "subtotal": 0.01,
+            "issued_at": "2024-09-09T12:48:12.000Z",
+            "isser_name": "BBVA BANCOMER, S.A.",
+            "description": "Servicios de Facturación",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "03"
+          },
+          {
+            "id": 54982675,
+            "tax": 134.13,
+            "type": "I",
+            "uuid": "8ab176ab-b8a6-4e01-ba8c-ca22185e364e",
+            "total": 1000,
+            "usage": "G03",
+            "user_id": 498107,
+            "subtotal": 865.87,
+            "issued_at": "2024-09-28T19:16:13.000Z",
+            "isser_name": "ESTACION DE SERVICIO ARIEL SA DE CV",
+            "description": "PREMIUM",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "28"
+          }
+        ],
+        "totalDeductible": 0
+      },
+      "created_at_3": "2024-10-14 14:06:59.486",
+      "id_4": 2834,
+      "fft_id_4": 7402,
+      "user_id_5": 498107,
+      "period": "2024-7",
+      "incomes": 12735.68,
+      "expenses": 0,
+      "deductions": 0,
+      "created_at_4": "2024-10-16 14:53:13.502",
+      "updated_at": "2024-10-16 14:53:13.502"
+    },
+    {
+      "user_id": 498107,
+      "id": 2085,
+      "fft_id": 7402,
+      "user_id_2": 498107,
+      "year": 2024,
+      "month": 7,
+      "platec_income": {
+        "invoiceIncome": {
+          "total": 9570.17,
+          "invoices": [
+            {
+              "uuid": "18f27b03-e907-48d4-81a4-3b458202f2fb",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F18f27b03-e907-48d4-81a4-3b458202f2fb.pdf",
+              "category": "Servicios de entrega local de cartas o paquetes pequeños",
+              "tax_rate": 0.16,
+              "tax_type": "002",
+              "issued_at": "2024-07-29T12:24:14.000Z",
+              "tax_amount": 1024.75512,
+              "description": "Prestación de servicios",
+              "issuer_code": "GANM800508G66",
+              "issuer_name": "MOISES GARCIA NEGRETE",
+              "related_code": null,
+              "related_uuid": null,
+              "total_amount": 6404.66,
+              "receiver_code": "DCM991109KR2",
+              "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "payment_amount": null,
+              "discount_amount": null,
+              "invoice_item_id": 85299283,
+              "subtotal_amount": 6404.66,
+              "retention_amount": null,
+              "product_identification": "78102205"
+            },
+            {
+              "uuid": "1e929da2-8639-4e9e-9677-c26f59beedb6",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F1e929da2-8639-4e9e-9677-c26f59beedb6.pdf",
+              "category": "Servicios de entrega local de cartas o paquetes pequeños",
+              "tax_rate": 0.16,
+              "tax_type": "002",
+              "issued_at": "2024-07-22T11:23:27.000Z",
+              "tax_amount": 506.48253,
+              "description": "Prestación de servicios",
+              "issuer_code": "GANM800508G66",
+              "issuer_name": "MOISES GARCIA NEGRETE",
+              "related_code": null,
+              "related_uuid": null,
+              "total_amount": 3165.51,
+              "receiver_code": "DCM991109KR2",
+              "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "payment_amount": null,
+              "discount_amount": null,
+              "invoice_item_id": 85299284,
+              "subtotal_amount": 3165.51,
+              "retention_amount": null,
+              "product_identification": "78102205"
+            }
+          ]
+        },
+        "retentionIncome": {
+          "total": 3165.51,
+          "retentions": [
+            {
+              "uuid": "209cc087-b1f6-4bd9-885c-02c870890fc7",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2F295cb4f8-8100-4d61-a9a6-292216f62bd1.xml",
+              "issued_at": "2024-08-06T05:17:49.000Z",
+              "period_to": "2024-07-31T23:59:59.999Z",
+              "issuer_code": "DCM991109KR2",
+              "issuer_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "period_from": "2024-07-01T00:00:00.000Z",
+              "service_type": "03",
+              "total_taxable_amount": 3165.51
+            }
+          ]
+        }
+      },
+      "platec_income_previous": {
+        "invoicePreviousIncome": {
+          "invoices": [
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [
+                {
+                  "uuid": "18f27b03-e907-48d4-81a4-3b458202f2fb",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F18f27b03-e907-48d4-81a4-3b458202f2fb.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-07-29T12:24:14.000Z",
+                  "tax_amount": 1024.75512,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 6404.66,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299283,
+                  "subtotal_amount": 6404.66,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "1e929da2-8639-4e9e-9677-c26f59beedb6",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F1e929da2-8639-4e9e-9677-c26f59beedb6.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-07-22T11:23:27.000Z",
+                  "tax_amount": 506.48253,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 3165.51,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299284,
+                  "subtotal_amount": 3165.51,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                }
+              ],
+              "sumAmmount": 9570.17
+            }
+          ]
+        },
+        "retentionPreviousIncome": {
+          "retentions": [
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [
+                {
+                  "uuid": "209cc087-b1f6-4bd9-885c-02c870890fc7",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2F295cb4f8-8100-4d61-a9a6-292216f62bd1.xml",
+                  "issued_at": "2024-08-06T05:17:49.000Z",
+                  "period_to": "2024-07-31T23:59:59.999Z",
+                  "issuer_code": "DCM991109KR2",
+                  "issuer_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "period_from": "2024-07-01T00:00:00.000Z",
+                  "service_type": "03",
+                  "total_taxable_amount": 3165.51
+                }
+              ],
+              "sumAmmount": 3165.51
+            }
+          ]
+        }
+      },
+      "resico_income": {
+        "invoiceIncome": {
+          "total": 10134.81,
+          "invoices": [
+            {
+              "name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "total": 6782.54,
+              "usage": "G03",
+              "user_id": 498107,
+              "issued_at": "2024-07-29T12:24:14.000Z",
+              "payment_type": "PPD",
+              "payment_method": "99"
+            },
+            {
+              "name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "total": 3352.27,
+              "usage": "G03",
+              "user_id": 498107,
+              "issued_at": "2024-07-22T11:23:27.000Z",
+              "payment_type": "PUE",
+              "payment_method": "03"
+            }
+          ]
+        }
+      },
+      "resico_income_previous": {},
+      "salary_income": {
+        "invoiceIncome": {
+          "total": 0,
+          "invoices": []
+        }
+      },
+      "salary_income_previous": {},
+      "other_income": null,
+      "created_at": "2024-10-16 14:53:12.827",
+      "id_2": 2103,
+      "fft_id_2": 7401,
+      "user_id_3": 498107,
+      "year_2": 2024,
+      "month_2": 9,
+      "total_expense": {
+        "total": 1000,
+        "expenses": [
+          {
+            "id": 53840823,
+            "tax": null,
+            "type": "I",
+            "uuid": "71eadec8-3849-4021-ab24-71ebf21aaa9c",
+            "total": 0,
+            "usage": "S01",
+            "user_id": 498107,
+            "subtotal": 0.01,
+            "issued_at": "2024-09-09T12:48:12.000Z",
+            "isser_name": "BBVA BANCOMER, S.A.",
+            "description": "Servicios de Facturación",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "03"
+          },
+          {
+            "id": 54982675,
+            "tax": 134.13,
+            "type": "I",
+            "uuid": "8ab176ab-b8a6-4e01-ba8c-ca22185e364e",
+            "total": 1000,
+            "usage": "G03",
+            "user_id": 498107,
+            "subtotal": 865.87,
+            "issued_at": "2024-09-28T19:16:13.000Z",
+            "isser_name": "ESTACION DE SERVICIO ARIEL SA DE CV",
+            "description": "PREMIUM",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "28"
+          }
+        ]
+      },
+      "created_at_2": "2024-10-14 20:53:08.629",
+      "id_3": 2091,
+      "fft_id_3": 7402,
+      "user_id_4": 498107,
+      "year_3": 2024,
+      "month_3": 7,
+      "based_deductibles": {
+        "deductions": [],
+        "not_deductions": [
+          {
+            "id": 53840812,
+            "tax": null,
+            "type": "I",
+            "uuid": "9f44aea6-5dd8-460a-a855-566d0f4f868a",
+            "total": 0,
+            "usage": "S01",
+            "user_id": 498107,
+            "subtotal": 0.01,
+            "issued_at": "2024-07-06T12:19:25.000Z",
+            "isser_name": "BBVA BANCOMER, S.A.",
+            "tax_amount": null,
+            "description": "Servicios de Facturación",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "03"
+          }
+        ],
+        "totalDeductible": 0
+      },
+      "created_at_3": "2024-10-14 14:07:18.235",
+      "id_4": 2834,
+      "fft_id_4": 7402,
+      "user_id_5": 498107,
+      "period": "2024-7",
+      "incomes": 12735.68,
+      "expenses": 0,
+      "deductions": 0,
+      "created_at_4": "2024-10-16 14:53:13.502",
+      "updated_at": "2024-10-16 14:53:13.502"
+    },
+    {
+      "user_id": 498107,
+      "id": 2085,
+      "fft_id": 7402,
+      "user_id_2": 498107,
+      "year": 2024,
+      "month": 7,
+      "platec_income": {
+        "invoiceIncome": {
+          "total": 9570.17,
+          "invoices": [
+            {
+              "uuid": "18f27b03-e907-48d4-81a4-3b458202f2fb",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F18f27b03-e907-48d4-81a4-3b458202f2fb.pdf",
+              "category": "Servicios de entrega local de cartas o paquetes pequeños",
+              "tax_rate": 0.16,
+              "tax_type": "002",
+              "issued_at": "2024-07-29T12:24:14.000Z",
+              "tax_amount": 1024.75512,
+              "description": "Prestación de servicios",
+              "issuer_code": "GANM800508G66",
+              "issuer_name": "MOISES GARCIA NEGRETE",
+              "related_code": null,
+              "related_uuid": null,
+              "total_amount": 6404.66,
+              "receiver_code": "DCM991109KR2",
+              "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "payment_amount": null,
+              "discount_amount": null,
+              "invoice_item_id": 85299283,
+              "subtotal_amount": 6404.66,
+              "retention_amount": null,
+              "product_identification": "78102205"
+            },
+            {
+              "uuid": "1e929da2-8639-4e9e-9677-c26f59beedb6",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F1e929da2-8639-4e9e-9677-c26f59beedb6.pdf",
+              "category": "Servicios de entrega local de cartas o paquetes pequeños",
+              "tax_rate": 0.16,
+              "tax_type": "002",
+              "issued_at": "2024-07-22T11:23:27.000Z",
+              "tax_amount": 506.48253,
+              "description": "Prestación de servicios",
+              "issuer_code": "GANM800508G66",
+              "issuer_name": "MOISES GARCIA NEGRETE",
+              "related_code": null,
+              "related_uuid": null,
+              "total_amount": 3165.51,
+              "receiver_code": "DCM991109KR2",
+              "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "payment_amount": null,
+              "discount_amount": null,
+              "invoice_item_id": 85299284,
+              "subtotal_amount": 3165.51,
+              "retention_amount": null,
+              "product_identification": "78102205"
+            }
+          ]
+        },
+        "retentionIncome": {
+          "total": 3165.51,
+          "retentions": [
+            {
+              "uuid": "209cc087-b1f6-4bd9-885c-02c870890fc7",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2F295cb4f8-8100-4d61-a9a6-292216f62bd1.xml",
+              "issued_at": "2024-08-06T05:17:49.000Z",
+              "period_to": "2024-07-31T23:59:59.999Z",
+              "issuer_code": "DCM991109KR2",
+              "issuer_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "period_from": "2024-07-01T00:00:00.000Z",
+              "service_type": "03",
+              "total_taxable_amount": 3165.51
+            }
+          ]
+        }
+      },
+      "platec_income_previous": {
+        "invoicePreviousIncome": {
+          "invoices": [
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [
+                {
+                  "uuid": "18f27b03-e907-48d4-81a4-3b458202f2fb",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F18f27b03-e907-48d4-81a4-3b458202f2fb.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-07-29T12:24:14.000Z",
+                  "tax_amount": 1024.75512,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 6404.66,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299283,
+                  "subtotal_amount": 6404.66,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "1e929da2-8639-4e9e-9677-c26f59beedb6",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F1e929da2-8639-4e9e-9677-c26f59beedb6.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-07-22T11:23:27.000Z",
+                  "tax_amount": 506.48253,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 3165.51,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299284,
+                  "subtotal_amount": 3165.51,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                }
+              ],
+              "sumAmmount": 9570.17
+            }
+          ]
+        },
+        "retentionPreviousIncome": {
+          "retentions": [
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [
+                {
+                  "uuid": "209cc087-b1f6-4bd9-885c-02c870890fc7",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2F295cb4f8-8100-4d61-a9a6-292216f62bd1.xml",
+                  "issued_at": "2024-08-06T05:17:49.000Z",
+                  "period_to": "2024-07-31T23:59:59.999Z",
+                  "issuer_code": "DCM991109KR2",
+                  "issuer_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "period_from": "2024-07-01T00:00:00.000Z",
+                  "service_type": "03",
+                  "total_taxable_amount": 3165.51
+                }
+              ],
+              "sumAmmount": 3165.51
+            }
+          ]
+        }
+      },
+      "resico_income": {
+        "invoiceIncome": {
+          "total": 10134.81,
+          "invoices": [
+            {
+              "name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "total": 6782.54,
+              "usage": "G03",
+              "user_id": 498107,
+              "issued_at": "2024-07-29T12:24:14.000Z",
+              "payment_type": "PPD",
+              "payment_method": "99"
+            },
+            {
+              "name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "total": 3352.27,
+              "usage": "G03",
+              "user_id": 498107,
+              "issued_at": "2024-07-22T11:23:27.000Z",
+              "payment_type": "PUE",
+              "payment_method": "03"
+            }
+          ]
+        }
+      },
+      "resico_income_previous": {},
+      "salary_income": {
+        "invoiceIncome": {
+          "total": 0,
+          "invoices": []
+        }
+      },
+      "salary_income_previous": {},
+      "other_income": null,
+      "created_at": "2024-10-16 14:53:12.827",
+      "id_2": 2103,
+      "fft_id_2": 7401,
+      "user_id_3": 498107,
+      "year_2": 2024,
+      "month_2": 9,
+      "total_expense": {
+        "total": 1000,
+        "expenses": [
+          {
+            "id": 53840823,
+            "tax": null,
+            "type": "I",
+            "uuid": "71eadec8-3849-4021-ab24-71ebf21aaa9c",
+            "total": 0,
+            "usage": "S01",
+            "user_id": 498107,
+            "subtotal": 0.01,
+            "issued_at": "2024-09-09T12:48:12.000Z",
+            "isser_name": "BBVA BANCOMER, S.A.",
+            "description": "Servicios de Facturación",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "03"
+          },
+          {
+            "id": 54982675,
+            "tax": 134.13,
+            "type": "I",
+            "uuid": "8ab176ab-b8a6-4e01-ba8c-ca22185e364e",
+            "total": 1000,
+            "usage": "G03",
+            "user_id": 498107,
+            "subtotal": 865.87,
+            "issued_at": "2024-09-28T19:16:13.000Z",
+            "isser_name": "ESTACION DE SERVICIO ARIEL SA DE CV",
+            "description": "PREMIUM",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "28"
+          }
+        ]
+      },
+      "created_at_2": "2024-10-14 20:53:08.629",
+      "id_3": 2085,
+      "fft_id_3": 7401,
+      "user_id_4": 498107,
+      "year_3": 2024,
+      "month_3": 9,
+      "based_deductibles": {
+        "deductions": [],
+        "not_deductions": [
+          {
+            "id": 53840823,
+            "tax": null,
+            "type": "I",
+            "uuid": "71eadec8-3849-4021-ab24-71ebf21aaa9c",
+            "total": 0,
+            "usage": "S01",
+            "user_id": 498107,
+            "subtotal": 0.01,
+            "issued_at": "2024-09-09T12:48:12.000Z",
+            "isser_name": "BBVA BANCOMER, S.A.",
+            "description": "Servicios de Facturación",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "03"
+          },
+          {
+            "id": 54982675,
+            "tax": 134.13,
+            "type": "I",
+            "uuid": "8ab176ab-b8a6-4e01-ba8c-ca22185e364e",
+            "total": 1000,
+            "usage": "G03",
+            "user_id": 498107,
+            "subtotal": 865.87,
+            "issued_at": "2024-09-28T19:16:13.000Z",
+            "isser_name": "ESTACION DE SERVICIO ARIEL SA DE CV",
+            "description": "PREMIUM",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "28"
+          }
+        ],
+        "totalDeductible": 0
+      },
+      "created_at_3": "2024-10-14 14:06:59.486",
+      "id_4": 2834,
+      "fft_id_4": 7402,
+      "user_id_5": 498107,
+      "period": "2024-7",
+      "incomes": 12735.68,
+      "expenses": 0,
+      "deductions": 0,
+      "created_at_4": "2024-10-16 14:53:13.502",
+      "updated_at": "2024-10-16 14:53:13.502"
+    },
+    {
+      "user_id": 498107,
+      "id": 2085,
+      "fft_id": 7402,
+      "user_id_2": 498107,
+      "year": 2024,
+      "month": 7,
+      "platec_income": {
+        "invoiceIncome": {
+          "total": 9570.17,
+          "invoices": [
+            {
+              "uuid": "18f27b03-e907-48d4-81a4-3b458202f2fb",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F18f27b03-e907-48d4-81a4-3b458202f2fb.pdf",
+              "category": "Servicios de entrega local de cartas o paquetes pequeños",
+              "tax_rate": 0.16,
+              "tax_type": "002",
+              "issued_at": "2024-07-29T12:24:14.000Z",
+              "tax_amount": 1024.75512,
+              "description": "Prestación de servicios",
+              "issuer_code": "GANM800508G66",
+              "issuer_name": "MOISES GARCIA NEGRETE",
+              "related_code": null,
+              "related_uuid": null,
+              "total_amount": 6404.66,
+              "receiver_code": "DCM991109KR2",
+              "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "payment_amount": null,
+              "discount_amount": null,
+              "invoice_item_id": 85299283,
+              "subtotal_amount": 6404.66,
+              "retention_amount": null,
+              "product_identification": "78102205"
+            },
+            {
+              "uuid": "1e929da2-8639-4e9e-9677-c26f59beedb6",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F1e929da2-8639-4e9e-9677-c26f59beedb6.pdf",
+              "category": "Servicios de entrega local de cartas o paquetes pequeños",
+              "tax_rate": 0.16,
+              "tax_type": "002",
+              "issued_at": "2024-07-22T11:23:27.000Z",
+              "tax_amount": 506.48253,
+              "description": "Prestación de servicios",
+              "issuer_code": "GANM800508G66",
+              "issuer_name": "MOISES GARCIA NEGRETE",
+              "related_code": null,
+              "related_uuid": null,
+              "total_amount": 3165.51,
+              "receiver_code": "DCM991109KR2",
+              "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "payment_amount": null,
+              "discount_amount": null,
+              "invoice_item_id": 85299284,
+              "subtotal_amount": 3165.51,
+              "retention_amount": null,
+              "product_identification": "78102205"
+            }
+          ]
+        },
+        "retentionIncome": {
+          "total": 3165.51,
+          "retentions": [
+            {
+              "uuid": "209cc087-b1f6-4bd9-885c-02c870890fc7",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2F295cb4f8-8100-4d61-a9a6-292216f62bd1.xml",
+              "issued_at": "2024-08-06T05:17:49.000Z",
+              "period_to": "2024-07-31T23:59:59.999Z",
+              "issuer_code": "DCM991109KR2",
+              "issuer_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "period_from": "2024-07-01T00:00:00.000Z",
+              "service_type": "03",
+              "total_taxable_amount": 3165.51
+            }
+          ]
+        }
+      },
+      "platec_income_previous": {
+        "invoicePreviousIncome": {
+          "invoices": [
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [
+                {
+                  "uuid": "18f27b03-e907-48d4-81a4-3b458202f2fb",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F18f27b03-e907-48d4-81a4-3b458202f2fb.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-07-29T12:24:14.000Z",
+                  "tax_amount": 1024.75512,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 6404.66,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299283,
+                  "subtotal_amount": 6404.66,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "1e929da2-8639-4e9e-9677-c26f59beedb6",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F1e929da2-8639-4e9e-9677-c26f59beedb6.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-07-22T11:23:27.000Z",
+                  "tax_amount": 506.48253,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 3165.51,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299284,
+                  "subtotal_amount": 3165.51,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                }
+              ],
+              "sumAmmount": 9570.17
+            }
+          ]
+        },
+        "retentionPreviousIncome": {
+          "retentions": [
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [
+                {
+                  "uuid": "209cc087-b1f6-4bd9-885c-02c870890fc7",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2F295cb4f8-8100-4d61-a9a6-292216f62bd1.xml",
+                  "issued_at": "2024-08-06T05:17:49.000Z",
+                  "period_to": "2024-07-31T23:59:59.999Z",
+                  "issuer_code": "DCM991109KR2",
+                  "issuer_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "period_from": "2024-07-01T00:00:00.000Z",
+                  "service_type": "03",
+                  "total_taxable_amount": 3165.51
+                }
+              ],
+              "sumAmmount": 3165.51
+            }
+          ]
+        }
+      },
+      "resico_income": {
+        "invoiceIncome": {
+          "total": 10134.81,
+          "invoices": [
+            {
+              "name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "total": 6782.54,
+              "usage": "G03",
+              "user_id": 498107,
+              "issued_at": "2024-07-29T12:24:14.000Z",
+              "payment_type": "PPD",
+              "payment_method": "99"
+            },
+            {
+              "name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "total": 3352.27,
+              "usage": "G03",
+              "user_id": 498107,
+              "issued_at": "2024-07-22T11:23:27.000Z",
+              "payment_type": "PUE",
+              "payment_method": "03"
+            }
+          ]
+        }
+      },
+      "resico_income_previous": {},
+      "salary_income": {
+        "invoiceIncome": {
+          "total": 0,
+          "invoices": []
+        }
+      },
+      "salary_income_previous": {},
+      "other_income": null,
+      "created_at": "2024-10-16 14:53:12.827",
+      "id_2": 2109,
+      "fft_id_2": 7402,
+      "user_id_3": 498107,
+      "year_2": 2024,
+      "month_2": 7,
+      "total_expense": {
+        "total": 0,
+        "expenses": [
+          {
+            "id": 53840812,
+            "tax": null,
+            "type": "I",
+            "uuid": "9f44aea6-5dd8-460a-a855-566d0f4f868a",
+            "total": 0,
+            "usage": "S01",
+            "user_id": 498107,
+            "subtotal": 0.01,
+            "issued_at": "2024-07-06T12:19:25.000Z",
+            "isser_name": "BBVA BANCOMER, S.A.",
+            "tax_amount": null,
+            "description": "Servicios de Facturación",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "03"
+          }
+        ]
+      },
+      "created_at_2": "2024-10-16 14:53:12.762",
+      "id_3": 2091,
+      "fft_id_3": 7402,
+      "user_id_4": 498107,
+      "year_3": 2024,
+      "month_3": 7,
+      "based_deductibles": {
+        "deductions": [],
+        "not_deductions": [
+          {
+            "id": 53840812,
+            "tax": null,
+            "type": "I",
+            "uuid": "9f44aea6-5dd8-460a-a855-566d0f4f868a",
+            "total": 0,
+            "usage": "S01",
+            "user_id": 498107,
+            "subtotal": 0.01,
+            "issued_at": "2024-07-06T12:19:25.000Z",
+            "isser_name": "BBVA BANCOMER, S.A.",
+            "tax_amount": null,
+            "description": "Servicios de Facturación",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "03"
+          }
+        ],
+        "totalDeductible": 0
+      },
+      "created_at_3": "2024-10-14 14:07:18.235",
+      "id_4": 2834,
+      "fft_id_4": 7402,
+      "user_id_5": 498107,
+      "period": "2024-7",
+      "incomes": 12735.68,
+      "expenses": 0,
+      "deductions": 0,
+      "created_at_4": "2024-10-16 14:53:13.502",
+      "updated_at": "2024-10-16 14:53:13.502"
+    },
+    {
+      "user_id": 498107,
+      "id": 2085,
+      "fft_id": 7402,
+      "user_id_2": 498107,
+      "year": 2024,
+      "month": 7,
+      "platec_income": {
+        "invoiceIncome": {
+          "total": 9570.17,
+          "invoices": [
+            {
+              "uuid": "18f27b03-e907-48d4-81a4-3b458202f2fb",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F18f27b03-e907-48d4-81a4-3b458202f2fb.pdf",
+              "category": "Servicios de entrega local de cartas o paquetes pequeños",
+              "tax_rate": 0.16,
+              "tax_type": "002",
+              "issued_at": "2024-07-29T12:24:14.000Z",
+              "tax_amount": 1024.75512,
+              "description": "Prestación de servicios",
+              "issuer_code": "GANM800508G66",
+              "issuer_name": "MOISES GARCIA NEGRETE",
+              "related_code": null,
+              "related_uuid": null,
+              "total_amount": 6404.66,
+              "receiver_code": "DCM991109KR2",
+              "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "payment_amount": null,
+              "discount_amount": null,
+              "invoice_item_id": 85299283,
+              "subtotal_amount": 6404.66,
+              "retention_amount": null,
+              "product_identification": "78102205"
+            },
+            {
+              "uuid": "1e929da2-8639-4e9e-9677-c26f59beedb6",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F1e929da2-8639-4e9e-9677-c26f59beedb6.pdf",
+              "category": "Servicios de entrega local de cartas o paquetes pequeños",
+              "tax_rate": 0.16,
+              "tax_type": "002",
+              "issued_at": "2024-07-22T11:23:27.000Z",
+              "tax_amount": 506.48253,
+              "description": "Prestación de servicios",
+              "issuer_code": "GANM800508G66",
+              "issuer_name": "MOISES GARCIA NEGRETE",
+              "related_code": null,
+              "related_uuid": null,
+              "total_amount": 3165.51,
+              "receiver_code": "DCM991109KR2",
+              "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "payment_amount": null,
+              "discount_amount": null,
+              "invoice_item_id": 85299284,
+              "subtotal_amount": 3165.51,
+              "retention_amount": null,
+              "product_identification": "78102205"
+            }
+          ]
+        },
+        "retentionIncome": {
+          "total": 3165.51,
+          "retentions": [
+            {
+              "uuid": "209cc087-b1f6-4bd9-885c-02c870890fc7",
+              "pdf_url": null,
+              "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2F295cb4f8-8100-4d61-a9a6-292216f62bd1.xml",
+              "issued_at": "2024-08-06T05:17:49.000Z",
+              "period_to": "2024-07-31T23:59:59.999Z",
+              "issuer_code": "DCM991109KR2",
+              "issuer_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "period_from": "2024-07-01T00:00:00.000Z",
+              "service_type": "03",
+              "total_taxable_amount": 3165.51
+            }
+          ]
+        }
+      },
+      "platec_income_previous": {
+        "invoicePreviousIncome": {
+          "invoices": [
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [],
+              "sumAmmount": 0
+            },
+            {
+              "invoice": [
+                {
+                  "uuid": "18f27b03-e907-48d4-81a4-3b458202f2fb",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F18f27b03-e907-48d4-81a4-3b458202f2fb.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-07-29T12:24:14.000Z",
+                  "tax_amount": 1024.75512,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 6404.66,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299283,
+                  "subtotal_amount": 6404.66,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                },
+                {
+                  "uuid": "1e929da2-8639-4e9e-9677-c26f59beedb6",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/INVOICES%2F2024%2F9%2F1e929da2-8639-4e9e-9677-c26f59beedb6.pdf",
+                  "category": "Servicios de entrega local de cartas o paquetes pequeños",
+                  "tax_rate": 0.16,
+                  "tax_type": "002",
+                  "issued_at": "2024-07-22T11:23:27.000Z",
+                  "tax_amount": 506.48253,
+                  "description": "Prestación de servicios",
+                  "issuer_code": "GANM800508G66",
+                  "issuer_name": "MOISES GARCIA NEGRETE",
+                  "related_code": null,
+                  "related_uuid": null,
+                  "total_amount": 3165.51,
+                  "receiver_code": "DCM991109KR2",
+                  "receiver_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "payment_amount": null,
+                  "discount_amount": null,
+                  "invoice_item_id": 85299284,
+                  "subtotal_amount": 3165.51,
+                  "retention_amount": null,
+                  "product_identification": "78102205"
+                }
+              ],
+              "sumAmmount": 9570.17
+            }
+          ]
+        },
+        "retentionPreviousIncome": {
+          "retentions": [
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [],
+              "sumAmmount": 0
+            },
+            {
+              "retention": [
+                {
+                  "uuid": "209cc087-b1f6-4bd9-885c-02c870890fc7",
+                  "pdf_url": null,
+                  "xml_url": "https://d15k0l3mi8k562.cloudfront.net/RETENTIONS%2F2024%2F10%2F295cb4f8-8100-4d61-a9a6-292216f62bd1.xml",
+                  "issued_at": "2024-08-06T05:17:49.000Z",
+                  "period_to": "2024-07-31T23:59:59.999Z",
+                  "issuer_code": "DCM991109KR2",
+                  "issuer_name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+                  "period_from": "2024-07-01T00:00:00.000Z",
+                  "service_type": "03",
+                  "total_taxable_amount": 3165.51
+                }
+              ],
+              "sumAmmount": 3165.51
+            }
+          ]
+        }
+      },
+      "resico_income": {
+        "invoiceIncome": {
+          "total": 10134.81,
+          "invoices": [
+            {
+              "name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "total": 6782.54,
+              "usage": "G03",
+              "user_id": 498107,
+              "issued_at": "2024-07-29T12:24:14.000Z",
+              "payment_type": "PPD",
+              "payment_method": "99"
+            },
+            {
+              "name": "DEREMATE COM DE MÉXICO S DE RL DE CV",
+              "total": 3352.27,
+              "usage": "G03",
+              "user_id": 498107,
+              "issued_at": "2024-07-22T11:23:27.000Z",
+              "payment_type": "PUE",
+              "payment_method": "03"
+            }
+          ]
+        }
+      },
+      "resico_income_previous": {},
+      "salary_income": {
+        "invoiceIncome": {
+          "total": 0,
+          "invoices": []
+        }
+      },
+      "salary_income_previous": {},
+      "other_income": null,
+      "created_at": "2024-10-16 14:53:12.827",
+      "id_2": 2109,
+      "fft_id_2": 7402,
+      "user_id_3": 498107,
+      "year_2": 2024,
+      "month_2": 7,
+      "total_expense": {
+        "total": 0,
+        "expenses": [
+          {
+            "id": 53840812,
+            "tax": null,
+            "type": "I",
+            "uuid": "9f44aea6-5dd8-460a-a855-566d0f4f868a",
+            "total": 0,
+            "usage": "S01",
+            "user_id": 498107,
+            "subtotal": 0.01,
+            "issued_at": "2024-07-06T12:19:25.000Z",
+            "isser_name": "BBVA BANCOMER, S.A.",
+            "tax_amount": null,
+            "description": "Servicios de Facturación",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "03"
+          }
+        ]
+      },
+      "created_at_2": "2024-10-16 14:53:12.762",
+      "id_3": 2085,
+      "fft_id_3": 7401,
+      "user_id_4": 498107,
+      "year_3": 2024,
+      "month_3": 9,
+      "based_deductibles": {
+        "deductions": [],
+        "not_deductions": [
+          {
+            "id": 53840823,
+            "tax": null,
+            "type": "I",
+            "uuid": "71eadec8-3849-4021-ab24-71ebf21aaa9c",
+            "total": 0,
+            "usage": "S01",
+            "user_id": 498107,
+            "subtotal": 0.01,
+            "issued_at": "2024-09-09T12:48:12.000Z",
+            "isser_name": "BBVA BANCOMER, S.A.",
+            "description": "Servicios de Facturación",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "03"
+          },
+          {
+            "id": 54982675,
+            "tax": 134.13,
+            "type": "I",
+            "uuid": "8ab176ab-b8a6-4e01-ba8c-ca22185e364e",
+            "total": 1000,
+            "usage": "G03",
+            "user_id": 498107,
+            "subtotal": 865.87,
+            "issued_at": "2024-09-28T19:16:13.000Z",
+            "isser_name": "ESTACION DE SERVICIO ARIEL SA DE CV",
+            "description": "PREMIUM",
+            "total_taxed": null,
+            "payment_type": "PUE",
+            "related_uuid": null,
+            "receiver_name": "MOISES GARCIA NEGRETE",
+            "payment_amount": null,
+            "payment_method": "28"
+          }
+        ],
+        "totalDeductible": 0
+      },
+      "created_at_3": "2024-10-14 14:06:59.486",
+      "id_4": 2834,
+      "fft_id_4": 7402,
+      "user_id_5": 498107,
+      "period": "2024-7",
+      "incomes": 12735.68,
+      "expenses": 0,
+      "deductions": 0,
+      "created_at_4": "2024-10-16 14:53:13.502",
+      "updated_at": "2024-10-16 14:53:13.502"
+    }
+  ]
