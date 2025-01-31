@@ -1,0 +1,90 @@
+/* Estilos generales */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #1a1a1a; /* Fondo oscuro */
+    font-family: Arial, sans-serif;
+}
+
+/* Caja de login */
+.login {
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    background: url("1.jpg") no-repeat center / cover;
+    background-color: #333; /* Color de respaldo */
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+    overflow: hidden;
+}
+
+/* Formulario */
+form {
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(40%);
+    display: flex;
+    flex-direction: column;  
+    gap: 10px;
+}
+
+/* Título */
+h1 {
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Etiquetas */
+label {
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+
+/* Campos de entrada */
+input {
+    background: rgba(255, 255, 255, 0.3);
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 20px;
+    border: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+input:focus {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* Botón */
+button {
+    background: rgb(45, 126, 231);
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin: 10px 0;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: rgb(35, 106, 211);
+}
