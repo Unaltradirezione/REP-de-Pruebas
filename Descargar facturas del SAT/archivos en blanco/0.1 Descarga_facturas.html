@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatización de Descarga de Facturas SAT</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; padding: 20px; }
+        h1, h2 { color: #333; }
+        pre { background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto; }
+        code { color: #d63384; }
+    </style>
+</head>
+<body>
+    <h1>Automatización de Descarga de Facturas SAT</h1>
+    <p>Este documento describe el proceso paso a paso para descargar facturas del SAT y constancias de retenciones utilizando Python.</p>
+    
+    <h2>1️⃣ Instalación de Librerías Necesarias</h2>
+    <pre><code>pip install selenium scrapy requests webdriver-manager</code></pre>
+    
+    <h2>2️⃣ Inicio de Sesión en el SAT con Selenium</h2>
+    <pre><code>from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+import time
+
+options = webdriver.ChromeOptions()
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+
+driver.get("https://portalcfdi.facturaelectronica.sat.gob.mx/")
+time.sleep(5)
+
+rfc_input = driver.find_element(By.ID, "rfc")
+rfc_input.send_keys("TU_RFC")
+password_input = driver.find_element(By.ID, "password")
+password_input.send_keys("TU_CONTRASEÑA")
+input("⚠️ Resuelve el CAPTCHA y presiona ENTER para continuar...")
+
+driver.find_element(By.ID, "btnSubmit").click()
+time.sleep(5)
+print("✅ Login exitoso. Listo para extraer facturas.")</code></pre>
+    
+    <h2>3️⃣ Extracción de Enlaces de Facturas con Scrapy</h2>
+    <pre><code>import scrapy
+
+class FacturasSpider(scrapy.Spider):
+    name = "facturas"
+    start_urls = ["https://portalcfdi.facturaelectronica.sat.gob.mx/Consulta"]
+
+    def parse(self, response):
+        for factura in response.css("table#facturas tbody tr"):
+            enlace = factura.css("a::attr(href)").get()
+            if enlace:
+                yield {"url_descarga": response.urljoin(enlace)}</code></pre>
+    
+    <h2>4️⃣ Descargar las Facturas con Requests</h2>
+    <pre><code>import requests
+import json
+
+with open("facturas.json", "r") as file:
+    data = json.load(file)
+
+for factura in data:
+    url = factura["url_descarga"]
+    response = requests.get(url, stream=True)
+
+    if response.status_code == 200:
+        filename = url.split("/")[-1]
+        with open(f"descargas/{filename}", "wb") as f:
+            f.write(response.content)
+        print(f"✅ Factura descargada: {filename}")
+    else:
+        print(f"❌ Error al descargar {url}")</code></pre>
+    
+    <h2>📌 Resumen del Flujo</h2>
+    <ul>
+        <li>🔹 Selenium inicia sesión en el SAT y espera el CAPTCHA.</li>
+        <li>🔹 Scrapy extrae las URLs de las facturas.</li>
+        <li>🔹 Requests descarga las facturas.</li>
+    </ul>
+    <p>🚀 ¡Listo! Ahora puedes automatizar la descarga de facturas del SAT.</p>
+</body>
+</html>
