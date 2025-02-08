@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Impuestos 2025</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <div class="container" id="captureArea">
+    <img src="heruLogoDarkBlueBackgroundWhiteLogo.jpg" alt="Heru Logo">
+    <h2>Simulación para comparar regímenes</h2>
+    
+    <div class="input-group">
+      <label for="ingresoMensual">Ingreso mensual:</label>
+      <input type="number" id="ingresoMensual" placeholder="Ingresos mensuales de la actividad">
+    </div>
+    
+    <div class="input-group">
+      <label for="deducibles">Deducibles del mes:</label>
+      <input type="number" id="deducibles" placeholder="Ingresa los gastos de la actividad">
+    </div>
+    
+    <button onclick="calcularImpuestos()">Comparar Regímenes</button>
+    <button id="btnDescargarPDF" onclick="generarPDF()" style="display: none;">Descargar PDF</button>
+    
+    <div id="resultadoImpuestos" class="result"></div>
+
+    <div class="comparison" id="comparativaImpuestos">
+      <div class="header-comparativa">Comparativa de Impuestos</div>
+      <table>
+        <thead>
+          <tr>
+            <th class="blue-header-table"></th>
+            <th class="blue-header-table">Actividad Empresarial</th>
+            <th class="blue-header-table">RESICO</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ingreso mensual</td>
+            <td id="ingresoMensualValor"></td>
+            <td id="ingresoMensualRESICO"></td>
+          </tr>
+          <tr>
+            <td>Gastos del mes</td>
+            <td id="gastosMensualesValor"></td>
+            <td id="gastosMensualesRESICO"></td>
+          </tr>
+          <tr>
+            <td>IVA Mensual</td>
+            <td id="ivaActividadEmpresarial"></td>
+            <td id="ivaRESICO"></td>
+          </tr>
+          <tr>
+            <td>ISR Mensual</td>
+            <td id="isrActividadEmpresarial"></td>
+            <td id="isrRESICO"></td>
+          </tr>
+          <tr>
+            <td>Porcentaje Mensual ISR</td>
+            <td id="porcentajeISRActividadEmpresarial"></td>
+            <td id="porcentajeISRRESICO"></td>
+          </tr>
+          <tr>
+            <td>Total de impuestos</td>
+            <td id="totalImpuestosActividadEmpresarial"></td>
+            <td id="totalImpuestosRESICO"></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <div id="ahorroMensual"></div>
+      <div id="ahorroAnual"></div>
+    </div>
+    <footer>
+      <p class="nota-legal">
+          Los cálculos de impuestos y el ahorro mostrado son una estimación basada en la información suministrada por el usuario y podrían variar según los ingresos, gastos y deducciones aplicables a su actividad económica; no representa un compromiso definitivo sobre los impuestos a pagar.
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    function calcularImpuestos() {
+      let ingresoMensual = document.getElementById("ingresoMensual").value;
+      let deducibles = document.getElementById("deducibles").value;
+
+      if (ingresoMensual === "" || deducibles === "") {
+        alert("Por favor, ingresa todos los valores antes de calcular.");
+        return;
+      }
+
+      // Simulación de cálculos
+      document.getElementById("ingresoMensualValor").innerText = `$${ingresoMensual}`;
+      document.getElementById("ingresoMensualRESICO").innerText = `$${ingresoMensual}`;
+      document.getElementById("gastosMensualesValor").innerText = `$${deducibles}`;
+      document.getElementById("gastosMensualesRESICO").innerText = `$${deducibles}`;
+      document.getElementById("ivaActividadEmpresarial").innerText = `$${(ingresoMensual * 0.16).toFixed(2)}`;
+      document.getElementById("ivaRESICO").innerText = `$${(ingresoMensual * 0.08).toFixed(2)}`;
+      document.getElementById("isrActividadEmpresarial").innerText = `$${(ingresoMensual * 0.30).toFixed(2)}`;
+      document.getElementById("isrRESICO").innerText = `$${(ingresoMensual * 0.10).toFixed(2)}`;
+      document.getElementById("porcentajeISRActividadEmpresarial").innerText = "30%";
+      document.getElementById("porcentajeISRRESICO").innerText = "10%";
+      document.getElementById("totalImpuestosActividadEmpresarial").innerText = `$${(ingresoMensual * 0.30 + ingresoMensual * 0.16).toFixed(2)}`;
+      document.getElementById("totalImpuestosRESICO").innerText = `$${(ingresoMensual * 0.10 + ingresoMensual * 0.08).toFixed(2)}`;
+
+      let ahorroMensual = (ingresoMensual * 0.30 + ingresoMensual * 0.16) - (ingresoMensual * 0.10 + ingresoMensual * 0.08);
+      let ahorroAnual = ahorroMensual * 12;
+
+      document.getElementById("ahorroMensual").innerText = `Ahorro Mensual: $${ahorroMensual.toFixed(2)}`;
+      document.getElementById("ahorroAnual").innerText = `Ahorro Anual: $${ahorroAnual.toFixed(2)}`;
+
+      // Mostrar botón de descarga una vez que se completa el cálculo
+      document.getElementById("btnDescargarPDF").style.display = "inline-block"; // Cambié el estilo a inline-block para mejor visibilidad
+    }
+
+    function generarPDF() {
+      const jsPDF = window.jspdf.jsPDF; 
+
+      html2canvas(document.querySelector("#captureArea")).then(canvas => {
+        let imgData = canvas.toDataURL("image/png");
+        let pdf = new jsPDF("p", "mm", "a4");
+        let imgWidth = 210;
+        let imgHeight = (canvas.height * imgWidth) / canvas.width;
+        
+        pdf.addImage(imgData, "PNG", 0, 0, imgWidth, imgHeight);
+        pdf.save("Comparativa_Impuestos.pdf");
+      }).catch(err => {
+        console.error("Error al generar el PDF:", err);
+      });
+    }
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparación de Regímenes</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .tabs { display: flex; cursor: pointer; margin-bottom: 10px; }
+        .tab { padding: 10px; border: 1px solid #ccc; border-bottom: none; background: #f1f1f1; }
+        .tab.active { background: white; font-weight: bold; }
+        .content { display: none; padding: 10px; border: 1px solid #ccc; }
+        .content.active { display: block; }
+    </style>
+</head>
+<body>
+    <div class="tabs">
+        <div class="tab active" onclick="showTab('simulacion')">Calculadora</div>
+        <div class="tab" onclick="showTab('resico')">Buscador de actividades</div>
+    </div>
+    
+    <div id="simulacion" class="content active">
+        
+        <div id="comparador">
+            <!-- Aquí puedes insertar el HTML del comparador de regímenes -->
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Calculadora de Impuestos 2025</title>
+                <link rel="stylesheet" href="styles.css">
+              </head>
+              <body>
+                <div class="container">
+                  <img src="heruLogoDarkBlueBackgroundWhiteLogo.jpg" alt="Heru Logo">
+                  <h2>Simulación para comparar regímenes</h2>
+                  
+                  <div class="input-group">
+                    <label for="ingresoMensual">Ingreso mensual:</label>
+                    <input type="number" id="ingresoMensual" placeholder="Ingresos mensuales de la actividad">
+                  </div>
+                  
+                  <div class="input-group">
+                    <label for="deducibles">Deducibles del mes:</label>
+                    <input type="number" id="deducibles" placeholder="Ingresa los gastos de la actividad">
+                  </div>
+                  
+                  <button onclick="calcularImpuestos()">Comparar Regimenes</button>
+                  
+                  <div id="resultadoImpuestos" class="result"></div>
+              
+                  <div class="comparison" id="comparativaImpuestos">
+                    <div class="header-comparativa">Comparativa de Impuestos</div>
+                    <table>
+                      <thead>
+                        <tr>
+                          <th class="blue-header-table"></th>
+                          <th class="blue-header-table">Actividad Empresarial</th>
+                          <th class="blue-header-table">RESICO</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Ingreso mensual</td>
+                          <td id="ingresoMensualValor"></td>
+                          <td id="ingresoMensualRESICO"></td>
+                        </tr>
+                        <tr>
+                          <td>Gastos del mes</td>
+                          <td id="gastosMensualesValor"></td>
+                          <td id="gastosMensualesRESICO"></td>
+                        </tr>
+                        <tr>
+                          <td>IVA Mensual</td>
+                          <td id="ivaActividadEmpresarial"></td>
+                          <td id="ivaRESICO"></td>
+                        </tr>
+                        <tr>
+                          <td>ISR Mensual</td>
+                          <td id="isrActividadEmpresarial"></td>
+                          <td id="isrRESICO"></td>
+                        </tr>
+                        <tr>
+                          <td>Porcentaje Mensual ISR</td>
+                          <td id="porcentajeISRActividadEmpresarial"></td>
+                          <td id="porcentajeISRRESICO"></td>
+                        </tr>
+                        <tr>
+                          <td>Total de impuestos</td>
+                          <td id="totalImpuestosActividadEmpresarial"></td>
+                          <td id="totalImpuestosRESICO"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    
+                    <div id="ahorroMensual"></div>
+                    <div id="ahorroAnual"></div>
+                  </div>
+                  <footer>
+                    <p class="nota-legal">
+                        Los cálculos de impuestos y el ahorro mostrado son una estimación basada en la información suministrada por el usuario y podrían variar según los ingresos, gastos y deducciones aplicables a su actividad económica; no representa un compromiso definitivo sobre los impuestos a pagar.
+                    </p>
+                </footer>
+                </div>
+                
+              
+                <script src="script.js"></script>
+        </div>
+    </div>
+    
+    <div id="resico" class="content">
+        <h2>Actividades para RESICO</h2>
+        <p>Consulta las actividades permitidas en RESICO:</p>
+        <iframe src="listado.html" width="100%" height="400px" style="border:none;"></iframe>
+    </div>
+
+    <script>
+        function showTab(tabId) {
+            document.querySelectorAll('.content').forEach(content => content.classList.remove('active'));
+            document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+            
+            document.getElementById(tabId).classList.add('active');
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>

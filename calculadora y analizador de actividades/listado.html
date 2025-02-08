@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Actividades RESICO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+        li.hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>Actividades que pueden estar en RESICO</h2>
+    <input type="text" id="search" placeholder="Buscar actividad..." onkeyup="filterList()">
+    <ul id="activityList">
+        <p>Realizas actividades empresariales (entre otras las comerciales, industriales o de servicios)</p>
+        <lo>Agricultura</lo>
+            <li>Siembra, cultivo y cosecha de soya</li>
+            <li>Siembra, cultivo y cosecha de cártamo</li>
+            <li>Siembra, cultivo y cosecha de girasol</li>
+            <li>Siembra, cultivo y cosecha anual de otras semillas oleaginosas</li>
+            <li>Siembra, cultivo y cosecha de frijol</li>
+            <li>Siembra, cultivo y cosecha de garbanzo</li>
+            <li>Siembra, cultivo y cosecha de otras legumbres</li>
+            <li>Siembra, cultivo y cosecha de trigo</li>
+            <li>Siembra, cultivo y cosecha de maíz grano</li>
+            <li>Siembra, cultivo y cosecha de maíz forrajero</li>
+            <li>Siembra, cultivo y cosecha de arroz</li>
+            <li>Siembra, cultivo y cosecha de sorgo grano</li>
+            <li>Siembra, cultivo y cosecha de avena grano</li>
+            <li>Siembra, cultivo y cosecha de cebada grano</li>
+            <li>Siembra, cultivo y cosecha de sorgo forrajero</li>
+            <li>Siembra, cultivo y cosecha de avena forrajera</li>
+            <li>Siembra, cultivo y cosecha de otros cereales</li>
+            <li>Siembra, cultivo y cosecha de jitomate o tomate rojo</li>
+            <li>Siembra, cultivo y cosecha de chile</li>
+            <li>Siembra, cultivo y cosecha de cebolla</li>
+            <li>Siembra, cultivo y cosecha de melón o sandía</li>
+            <li>Siembra, cultivo y cosecha de tomate verde</li>
+            <li>Siembra, cultivo y cosecha de papa</li>
+            <li>Siembra, cultivo y cosecha de calabacita</li>
+            <li>Siembra, cultivo y cosecha de otras hortalizas y semillas de hortalizas</li>
+    </ul>
+
+    <script>
+        function filterList() {
+            let input = document.getElementById('search').value.toLowerCase();
+            let listItems = document.querySelectorAll('#activityList li');
+            
+            listItems.forEach(item => {
+                let text = item.textContent.toLowerCase();
+                if (text.includes(input)) {
+                    item.classList.remove('hidden');
+                } else {
+                    item.classList.add('hidden');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
