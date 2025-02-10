@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script defer src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <main>
+        <aside>
+            <ul class="links">
+                <li onclick="Navigate(0)" class="activelink"><i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </li>
+                <li onclick="Navigate(1)"><i class="fa-solid fa-user"></i>
+                    <p>About Me</p>
+                </li>
+                <li onclick="Navigate(2)"><i class="fa-solid fa-list"></i>
+                    <p>Services</p>
+                </li>
+                <li onclick="Navigate(3)"><i class="fa-solid fa-images"></i>
+                    <p>Gallery</p>
+                </li>
+                <li onclick="Navigate(4)"><i class="fa-solid fa-comments"></i>
+                    <p>Contact Me</p>
+                </li>
+            </ul>
+        </aside>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide home-slide">
+                    <div class="HomeContent">
+                        <h1>Hi I'm <span class="stylized-name">----</span>,</h1>
+                        <h2>A <span class="proffesions">Web Developer</span></h2>
+                        <p class="heroline">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum placeat, quisquam a quam optio quibusdam pariatur sit? Cupiditate mollitia quos repellendus doloremque iure? Tempore minus aspernatur deleniti nesciunt quod exercitationem!</p>
+                        <div class="buttonGroup">
+                            <button>Hire Me</button>
+                            <button>Contact Me</button>
+                        </div>
+                    </div>
+                    <div class="SideImg">
+                        <div class="top-right-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                        <img src="contable.jpg" alt="">
+                        <div class="bottom-left-corner">
+                            <hr class="hr1">
+                            <hr class="hr1">
+                        </div>
+                        <p class="slide-help">Scroll for next slide <i class="fa-solid fa-chevron-right fa-shake"></i></p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="about-us">
+                        <h1 class="heading">About Me</h1>
+                        <h3 class="sub-heading">I'm <span class="proffesions">A Web Developer</span></h3>
+                        <p class="aboutme-details">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque porro fuga soluta nisi dolore quisquam sit non! Modi quisquam reiciendis possimus quas fugiat atque praesentium corrupti optio, recusandae architecto voluptates?
+                        </p>
+                        <div class="about-me-division">
+                            <div class="about-me-table">
+                                <li><span>Experience</span> 5+ years</li>
+                                <li><span>Country:</span> Mexico</li>
+                                <li><span>Availability</span> 24/7</li>
+                                <li><span>Satisfied Clients</span> 200+</li>
+                                <li><span>Age</span> 29</li>
+                                <li><span>Phone</span> 123-456-789</li>
+                                <li><span>Language Used</span> HTML</li>
+                                <li><span>Degree</span> CS</li>
+                                <div class="buttonGroup">
+                                    <button>Hire Me</button>
+                                    <button>Contact Me</button>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <li>
+                                    <p>HTML</p>
+                                    <div class="active-bar" style="width: 99%"></div>
+                                </li>
+                                <li>
+                                    <p>CSS</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:80%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>JavaScript</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:85%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>Python</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:50%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>Django</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:60%"></div>
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide services">
+                    <h1 class="heading">Services</h1>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nemo reprehenderit corrupti iusto odio earum numquam expedita officia vel corporis doloribus illo nihil culpa labore, incidunt, quam in ullam cum.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h2>Web Development</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, corporis. Asperiores, eum assumenda non libero impedit sed harum adipisci quis eveniet! Ducimus nostrum voluptate vitae corrupti tenetur incidunt consequatur cupiditate.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <h2>SEO</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod ipsum similique qui ullam autem! Earum, quisquam ab! Maiores deleniti a necessitatibus libero repudiandae temporibus cumque, labore quasi quia officia autem.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-image"></i></div>
+                        <h2>Graphic Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, praesentium. Cumque, hic, omnis eligendi ipsam quasi architecto quis itaque ipsa, quas deleniti minus voluptates eum! Numquam illo dolore harum doloribus.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                        <h2>Software Development</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat ipsa perspiciatis ratione quod nemo quae quo, nesciunt voluptatem velit praesentium unde laudantium asperiores sint odit repudiandae? Dolor voluptas sapiente fugit?</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-database"></i></div>
+                        <h2>Database Admin</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ipsa laudantium amet ad, quos beatae facere esse ullam dolor excepturi tenetur exercitationem quasi alias magni. Facere minus quod ad? Non?</p>
+                    </div>
+                </div>
+                <div class="swiper-slide gallery">
+                    <h1 class="heading">Gallery</h1>
+                    <div class="project"><img src="contable.jpg" alt=""></div>
+                    <div class="project"><img src="contable.jpg" alt=""></div>
+                    <div class="project"><img src="contable.jpg" alt=""></div>
+                    <div class="project"><img src="contable.jpg" alt=""></div>
+                    <div class="project"><img src="contable.jpg" alt=""></div>
+                    <div class="project"><img src="contable.jpg" alt=""></div>
+                </div>
+                <div class="swiper-slide contactMe">
+                    <h1 class="heading">Contact Me</h1>
+                    <div class="contactinfo"><i class="fa-solid fa-phone"></i>
+                        <h3>Mobile No</h3>
+                        <p>123-456-789</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-solid fa-location-dot"></i>
+                        <h3>Location</h3>
+                        <p>Somewhere on Earth</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-regular fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>abc123@hotmail.com</p>
+                    </div>
+                    <div class="contactform">
+                        <form action="">
+                            <input type="text" name="name" placeholder="Name" required>
+                            <input type="email" name="email" placeholder="Email" required>
+                            <textarea name="message" rows="5" placeholder="Message" required></textarea>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        var swiper = new Swiper(".swiper", {
+            effect: "cube",
+            allowTouchMove: false,
+            grabCursor: false,
+            cubeEffect: {
+                shadow: true,
+                slideShadows: true,
+                shadowOffset: 20,
+                shadowScale: 0.94,
+            },
+            mousewheel: true
+        });
+
+        function Navigate(indx) {
+            document.querySelectorAll(".links li").forEach(item => item.classList.remove("activelink"));
+            let links = document.querySelectorAll(".links li");
+            if (links[indx]) {
+                links[indx].classList.add("activelink");
+            }
+            swiper.slideTo(indx, 1000, true);
+        }
+    </script>
+</body>
+</html>
