@@ -101,3 +101,4 @@ function calcularImpuestos() {
   document.getElementById("ahorroAnual").innerText = "Ahorro estimado anual: $" + Math.round(ahorroAnual);
   document.getElementById("comparativaImpuestos").style.display = "block";
 }
+
