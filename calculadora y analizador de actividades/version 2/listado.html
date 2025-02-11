@@ -1,0 +1,1507 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Actividades RESICO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li,
+        h3 {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+            display: none;
+            /* Oculta todas las actividades y títulos por defecto */
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Actividades para RESICO</h2>
+    <input type="text" id="search" placeholder="Buscar actividad..." onkeyup="filterList()">
+    <ul id="activityList">
+
+        <ul>
+            <h3>Agricultura</h3>
+
+            <li>Siembra, cultivo y cosecha de soya</li>
+            <li>Siembra, cultivo y cosecha de cártamo</li>
+            <li>Siembra, cultivo y cosecha de girasol</li>
+            <li>Siembra, cultivo y cosecha anual de otras semillas oleaginosas</li>
+            <li>Siembra, cultivo y cosecha de frijol</li>
+            <li>Siembra, cultivo y cosecha de garbanzo</li>
+            <li>Siembra, cultivo y cosecha de otras legumbres</li>
+            <li>Siembra, cultivo y cosecha de trigo</li>
+            <li>Siembra, cultivo y cosecha de maíz grano</li>
+            <li>Siembra, cultivo y cosecha de maíz forrajero</li>
+            <li>Siembra, cultivo y cosecha de arroz</li>
+            <li>Siembra, cultivo y cosecha de sorgo grano</li>
+            <li>Siembra, cultivo y cosecha de avena grano</li>
+            <li>Siembra, cultivo y cosecha de cebada grano</li>
+            <li>Siembra, cultivo y cosecha de sorgo forrajero</li>
+            <li>Siembra, cultivo y cosecha de avena forrajera</li>
+            <li>Siembra, cultivo y cosecha de otros cereales</li>
+            <li>Siembra, cultivo y cosecha de jitomate o tomate rojo</li>
+            <li>Siembra, cultivo y cosecha de chile</li>
+            <li>Siembra, cultivo y cosecha de cebolla</li>
+            <li>Siembra, cultivo y cosecha de melón o sandía</li>
+            <li>Siembra, cultivo y cosecha de tomate verde</li>
+            <li>Siembra, cultivo y cosecha de papa</li>
+            <li>Siembra, cultivo y cosecha de calabacita</li>
+            <li>Siembra, cultivo y cosecha de otras hortalizas y semillas de hortalizas</li>
+            <li>Siembra, cultivo y cosecha de naranja</li>
+            <li>Siembra, cultivo y cosecha de limón</li>
+            <li>Siembra, cultivo y cosecha de cítricos</li>
+            <li>Siembra, cultivo y cosecha de café</li>
+            <li>Siembra, cultivo y cosecha de plátano</li>
+            <li>Siembra, cultivo y cosecha de mango</li>
+            <li>Siembra, cultivo y cosecha de aguacate</li>
+            <li>Siembra, cultivo y cosecha de uva</li>
+            <li>Siembra, cultivo y cosecha de manzana</li>
+            <li>Siembra, cultivo y cosecha de cacao</li>
+            <li>Siembra, cultivo y cosecha de otros frutales no cítricos</li>
+            <li>Siembra, cultivo y cosecha de productos alimenticios en invernaderos</li>
+            <li>Siembra, cultivo y cosecha de flores a cielo abierto</li>
+            <li>Siembra, cultivo y cosecha de flores en invernadero</li>
+            <li>Siembra, cultivo y cosecha de árboles de Navidad y de especies maderables de ciclos productivos de 10
+                años o
+                menos</li>
+            <li>Siembra, cultivo y cosecha de otros cultivos en invernaderos y viveros</li>
+            <li>Siembra, cultivo y cosecha de tabaco</li>
+            <li>Siembra, cultivo y cosecha de algodón</li>
+            <li>Siembra, cultivo y cosecha de caña de azúcar</li>
+            <li>Siembra, cultivo y cosecha de alfalfa</li>
+            <li>Siembra, cultivo y cosecha de trébol, pastos y zacates</li>
+            <li>Siembra, cultivo y cosecha de coco y coquito de aceite</li>
+            <li>Siembra, cultivo y cosecha de cacahuate</li>
+            <li>Siembra, cultivo y cosecha de agave o maguey tequilero</li>
+            <li>Siembra, cultivo y cosecha de otros cultivos</li>
+        </ul>
+
+        <ul>
+            <h3>Generación y suministro de energía eléctrica, agua y gas</h3>
+
+            <li>Generación y transmisión de energía eléctrica</li>
+            <li>Suministro de energía eléctrica a los consumidores finales</li>
+            <li>Captación, tratamiento y suministro de agua para uso distinto al doméstico realizados por particulares
+            </li>
+            <li>Suministro de gas por ductos al consumidor final</li>
+            <li>Captación, tratamiento y suministro de agua para uso doméstico realizados por particulares</li>
+        </ul>
+
+        <ul>
+            <h3>Minería y extracción de petróleo y gas</h3>
+
+            <li>Minería de carbón mineral</li>
+            <li>Minería de hierro</li>
+            <li>Minería de oro</li>
+            <li>Minería de plata</li>
+            <li>Minería de cobre y níquel</li>
+            <li>Minería de plomo y zinc</li>
+            <li>Minería de manganeso</li>
+            <li>Minería de mercurio y antimonio</li>
+            <li>Minería de uranio y minerales radiactivos</li>
+            <li>Minería de otros minerales metálicos</li>
+            <li>Minería de piedra de cal</li>
+            <li>Minería de mármol</li>
+            <li>Minería de otras piedras dimensionadas</li>
+            <li>Minería de arena y grava para la construcción</li>
+            <li>Minería de tezontle y tepetate</li>
+            <li>Minería de feldespato</li>
+            <li>Minería de sílice</li>
+            <li>Minería de caolín</li>
+            <li>Minería de otras arcillas y otros minerales refractarios</li>
+            <li>Extracción y explotación de sal</li>
+            <li>Minería de piedra de yeso</li>
+            <li>Minería de barita</li>
+            <li>Minería de roca fosfórica</li>
+            <li>Minería de fluorita</li>
+            <li>Minería de grafito</li>
+            <li>Minería de azufre</li>
+            <li>Minería de minerales no metálicos para productos químicos</li>
+            <li>Minería de otros minerales no metálicos</li>
+            <li>Perforación de pozos petroleros y de gas</li>
+            <li>Servicios de explotación o prospección minera y desmantelamiento de torres de perforación</li>
+        </ul>
+
+        <ul>
+            <h3>Pesca</h3>
+
+            <li>Cría, cultivo, fomento y cuidado de animales acuáticos, excepto camarones</li>
+            <li>Pesca de camarón</li>
+            <li>Pesca de atunes</li>
+            <li>Pesca de sardina y anchoveta</li>
+            <li>Pesca de otras especies</li>
+
+            <h3>Ganadería</h3>
+
+            <li>Cría y engorda de vacas, reses o novillos para venta de su carne</li>
+            <li>Cría y engorda de vacas, reses o novillos para venta de leche</li>
+            <li>Cría y engorda de vacas, reses o novillos para su venta</li>
+            <li>Cría y engorda de cerdos en granja</li>
+            <li>Cría y engorda de cerdos en patios y lugares distintos a granjas</li>
+            <li>Cría y engorda de gallinas ponedoras de huevo para reproducción</li>
+            <li>Cría y engorda de gallinas ponedoras de huevo para consumo</li>
+            <li>Cría y engorda de pollos para venta de su carne</li>
+            <li>Cría y engorda de guajolotes o pavos para la venta de su carne y producción de huevo</li>
+            <li>Producción de aves de corral en incubadora</li>
+            <li>Cría y engorda de otras aves para venta de su carne y producción de huevo</li>
+            <li>Cría y engorda de borregos</li>
+            <li>Cría y engorda de borregos en forma conjunta con cabras o chivos</li>
+            <li>Cría y engorda de cabras o chivos</li>
+            <li>Cría, fomento y cuidado de camarones</li>
+            <li>Explotación, recolección y venta de miel de abeja y otros productos derivados</li>
+            <li>Cría y engorda de caballos, mulas, burros y otros équidos</li>
+            <li>Cría y explotación de animales de piel con pelaje fino</li>
+            <li>Cría y explotación de otros animales</li>
+        </ul>
+
+        <ul>
+            <h3>Silvicultura</h3>
+
+            <li>Actividades forestales como plantación, reforestación y conservación, con el propósito de realizar la
+                venta
+                en pie de árboles maderables</li>
+            <li>Cultivo de especies forestales para tareas de reforestación</li>
+            <li>Recolección de productos forestales como gomas, resinas, rizomas, fibras y heno. Recolección de frutas
+                silvestres y plantas medicinales y raíces</li>
+            <li>Tala de árboles, desbastado y el descortezado de troncos y la producción de trozas, astillas y rajas de
+                madera</li>
+        </ul>
+
+        <ul>
+            <h3>Vivienda, comercial e industrial</h3>
+
+            <li>Construcción de vivienda unifamiliar</li>
+            <li>Construcción de naves y plantas industriales</li>
+            <li>Construcción de inmuebles comerciales, institucionales y de servicios</li>
+            <li>Construcción de vivienda multifamiliar</li>
+        </ul>
+
+        <ul>
+            <h3>Obras de ingeniería civil</h3>
+
+            <li>Construcción de obras para el tratamiento, distribución y suministro de agua y drenaje</li>
+            <li>Construcción de obras para el suministro de agua realizados para el sector agrícola o ganadero</li>
+            <li>Construcción de sistemas de riego agrícola</li>
+            <li>Construcción de obras relacionadas con la distribución de petróleo y gas</li>
+            <li>Construcción de plantas de refinación de petróleo, de procesamiento de gas natural y de petroquímica
+            </li>
+            <li>Construcción de obras de generación y conducción de energía eléctrica</li>
+            <li>Construcción de obras para telecomunicaciones</li>
+            <li>Construcción de obras de urbanización</li>
+            <li>Construcción de carreteras, autopistas, terracerías, puentes, pasos a desnivel y aeropistas</li>
+            <li>Construcción de presas y represas</li>
+            <li>Construcción de obras marítimas, fluviales y subacuáticas</li>
+            <li>Construcción de obras para transporte eléctrico y ferroviario</li>
+            <li>Otras construcciones de ingeniería civil u obra pesada</li>
+        </ul>
+
+        <ul>
+            <h3>Química y del petróleo</h3>
+
+            <li>Producción, elaboración de combustibles no fósiles</li>
+            <li>Fabricación de productos de asfalto</li>
+            <li>Fabricación de aceites y grasas lubricantes</li>
+            <li>Fabricación de coque y otros productos derivados del petróleo y del carbón</li>
+            <li>Fabricación de productos petroquímicos</li>
+            <li>Fabricación de gases industriales</li>
+            <li>Fabricación de pigmentos y colorantes sintéticos</li>
+            <li>Fabricación de otros productos químicos básicos inorgánicos</li>
+            <li>Fabricación de otros productos químicos básicos orgánicos</li>
+            <li>Fabricación de resinas sintéticas</li>
+            <li>Fabricación de fibras químicas</li>
+            <li>Fabricación de fertilizantes destinados para ser utilizados en la agricultura o ganadería</li>
+            <li>Fabricación de fertilizantes domésticos o industriales</li>
+            <li>Fabricación de pesticidas y agroquímicos, excepto plaguicidas</li>
+            <li>Fabricación de pesticidas, excepto fertilizantes y plaguicidas</li>
+            <li>Fabricación de pinturas (excepto en aerosol) y recubrimientos</li>
+            <li>Fabricación de películas, placas, productos químicos para fotografía, telas y papel fotosensible para
+                fotografía, cinematografía, artes gráficas y rayos X</li>
+            <li>Fabricación de otros productos químicos</li>
+            <li>Venta en territorio nacional de gasolina y diésel</li>
+            <li>Fabricación o producción de combustibles fósil
+        </ul>
+
+        <ul>
+            <h3>Plástico, hule, pegamentos, pinturas y llantas</h3>
+
+            <li>Fabricación de hules sintéticos</li>
+            <li>Fabricación de adhesivos o pegamentos, selladores, impermeabilizantes, masillas, resanadores,
+                gomas-cemento
+                y similares</li>
+            <li>Fabricación de resinas plásticas hechas a partir de plásticos reciclados</li>
+            <li>Fabricación de bolsas y películas de plástico flexible sin soporte para envase o empaque y tela plástica
+                sin
+                soporte</li>
+            <li>Fabricación de productos de plástico rígido con forma específica, sin soporte o sin reforzamiento, como
+                tuberías, conexiones y perfiles</li>
+            <li>Fabricación de laminados rígidos de plástico sin soporte</li>
+            <li>Fabricación de espumas y productos de poliestireno, como vasos, platos, bloques aislantes, tableros y
+                productos para embalaje</li>
+            <li>Fabricación de espumas y productos de uretano</li>
+            <li>Fabricación de botellas, botellones y frascos de plástico. Incluye la fabricación de preformas de
+                botellas
+            </li>
+            <li>Fabricación de artículos de plástico para el hogar</li>
+            <li>Fabricación de autopartes de plástico</li>
+            <li>Fabricación de envases y contenedores de plástico. Incluye la fabricación de tapas y tarimas de plástico
+            </li>
+            <li>Fabricación de partes y piezas de plástico sin reforzamiento para las industrias eléctrica, electrónica,
+                química, textil y para otras industrias</li>
+            <li>Fabricación de otros artículos de plástico reforzado</li>
+            <li>Fabricación de otros productos de plástico</li>
+            <li>Fabricación de llantas y cámaras</li>
+            <li>Revitalización (recauchutado) de llantas</li>
+            <li>Fabricación de bandas, mangueras de uso industrial y doméstico de hule y de plástico</li>
+            <li>Fabricación de otros productos de hule</li>
+            <li>Fabricación de azulejos y losetas no refractarias y azulejos</li>
+            <li>Fabricación de joyería de fantasía hecha de metales y piedras no preciosas, de plástico y de otros
+                materiales</li>
+        </ul>
+
+        <ul>
+            <h3>Equipo médico, deportivo, juguetes, farmacéuticos y perfumería y otros productos</h3>
+
+            <li>Fabricación de materias primas para la industria farmacéutica</li>
+            <li>Fabricación de preparaciones farmacéuticas</li>
+            <li>Fabricación de jabones, limpiadores y dentífricos</li>
+            <li>Fabricación de cosméticos, perfumes y otras preparaciones de tocador</li>
+            <li>Fabricación de explosivos y sus accesorios (fusibles de seguridad, detonantes)</li>
+            <li>Fabricación de cerillos o fósforos</li>
+            <li>Fabricación de colchones y box spring. Incluye la fabricación de colchones de agua</li>
+            <li>Fabricación de persianas, cortineros y sus accesorios. Incluye la fabricación de toldos de bambú y otro
+                tipo
+                de sombras para ventanas</li>
+            <li>Fabricación de equipo y aparatos para uso médico, dental, para laboratorio y de máxima seguridad</li>
+            <li>Fabricación de material de curación</li>
+            <li>Fabricación de instrumentos y aparatos ópticos de uso oftálmico</li>
+            <li>Fabricación de productos de metales no preciosos, como trofeos, artículos ornamentales para uso
+                doméstico,
+                platones, jarrones, floreros</li>
+            <li>Fabricación de artículos deportivos</li>
+            <li>Fabricación de juguetes. Incluye la fabricación de juegos y juguetes electrónicos, instrumentos
+                musicales de
+                juguete y juegos de mesa</li>
+            <li>Fabricación de anuncios publicitarios de todo tipo de material, como anuncios y toldos luminosos,
+                carteleras
+                espectaculares, anuncios electrónicos, rotagraphics, unipolares, de neón</li>
+            <li>Fabricación y ensamble de instrumentos musicales</li>
+            <li>Fabricación de cierres, botones y agujas</li>
+            <li>Fabricación de escobas, cepillos y similares</li>
+            <li>Fabricación de velas y veladoras</li>
+            <li>Fabricación de ataúdes</li>
+            <li>Otras industrias manufactureras</li>
+        </ul>
+
+        <ul>
+            <h3>Impresión, madera, papel, cartón y pañales</h3>
+
+            <li>Aserraderos integrados</li>
+            <li>Aserrado de tablas y tablones. Corte de tablas y tablones a partir de la madera en rollo</li>
+            <li>Tratamiento de la madera y producción de postes y durmientes</li>
+            <li>Fabricación de laminados y aglutinados de madera</li>
+            <li>Fabricación de productos de madera para la construcción, como puertas, ventanas</li>
+            <li>Fabricación de productos para embalaje y envases de madera</li>
+            <li>Fabricación de productos de materiales trenzables como vara, carrizo, mimbre, excepto palma</li>
+            <li>Fabricación de artículos y utensilios de madera para el hogar</li>
+            <li>Fabricación de productos de madera de uso industrial</li>
+            <li>Fabricación de otros productos de madera</li>
+            <li>Fabricación de celulosa a partir de madera, bagazo y materiales reciclables como papel, cartón y
+                textiles
+            </li>
+            <li>Fabricación de celulosa, papel y productos de papel en plantas integradas</li>
+            <li>Fabricación de papel a partir de celulosa</li>
+            <li>Fabricación de cartón en plantas integradas</li>
+            <li>Fabricación de cartón y cartoncillo a partir de celulosa</li>
+            <li>Fabricación de envases de cartón</li>
+            <li>Fabricación de bolsas de papel y productos celulósicos recubiertos y tratados</li>
+            <li>Fabricación de productos de papelería</li>
+            <li>Fabricación de pañales desechables y productos sanitarios</li>
+            <li>Fabricación de otros productos de papel y cartón</li>
+            <li>Impresión de libros, periódicos y revistas por contrato</li>
+            <li>Impresión de formas continuas y otros impresos</li>
+            <li>Industrias conexas a la impresión, como la encuadernación y la elaboración de placas, clichés, grabados
+                y
+                otros productos similares.</li>
+            <li>Fabricación de tintas para impresión</li>
+        </ul>
+
+        <ul>
+            <h3>Bebidas con contenido alcohólico y tabacos</h3>
+
+            <li>Producción, fabricación o envasado de cerveza</li>
+            <li>Producción, fabricación o envasado de vinos de mesa</li>
+            <li>Producción, fabricación, o envasado de bebidas refrescantes</li>
+            <li>Producción, fabricación, o envasado de otras bebidas a base de uva</li>
+            <li>Producción, fabricación o envasado de aguamiel y pulque</li>
+            <li>Producción, fabricación, o envasado de sidra y otras bebidas fermentadas</li>
+            <li>Producción, fabricación, o envasado de ron y otras bebidas destiladas de caña</li>
+            <li>Producción, fabricación, o envasado de bebidas destiladas de agave</li>
+            <li>Producción, fabricación o envasado de alcohol o alcohol desnaturalizado</li>
+            <li>Producción, fabricación o envasado de mieles incristalizables para transformarlas en alcohol</li>
+            <li>Producción, fabricación o envasado de otras bebidas destiladas</li>
+            <li>Proceso de transformación del tabaco</li>
+            <li>Elaboración, fabricación y producción de cigarros</li>
+            <li>Elaboración, fabricación y producción de puros y otros tabacos labrados</li>
+            <li>Producción y envasado de cerveza con una graduación alcohólica de más de 20º G.L.</li>
+            <li>Producción, fabricación, o envasado de vinos de mesa con una graduación alcohólica de más de 20º G.L.
+            </li>
+            <li>Producción, fabricación, o envasado de bebidas refrescantes con una graduación alcohólica de más de 20º
+                G.L.
+            </li>
+            <li>Producción, fabricación, o envasado de otras bebidas a base de uva con una graduación alcohólica de más
+                de
+                20º G.L.</li>
+            <li>Producción, fabricación, o envasado de sidra y otras bebidas fermentadas con una graduación alcohólica
+                de
+                más de 20º G.L.</li>
+            <li>Producción, fabricación, o envasado de ron y otras bebidas destiladas de caña con una graduación
+                alcohólica
+                de más de 20º G.L.</li>
+            <li>Producción, fabricación, o envasado de bebidas destiladas de agave con una graduación alcohólica de más
+                de
+                20º G.L.</li>
+            <li>Fabricantes, productores, envasadores o importadores que enajenan o importan cerveza en envases
+                reutilizables</li>
+            <li>Fabricantes, productores, envasadores o importadores que enajenan o importan cerveza de 20º G.L en
+                envases
+                reutilizables</li>
+            <li>Producción, fabricación o envasado de mieles incristalizables que no se utilizarán para transformarlas
+                en
+                alcohol</li>
+        </ul>
+
+        <ul>
+            <h3>Industria metálica y productos metálicos</h3>
+
+            <li>Fabricación de desbastes primarios y ferroaleaciones</li>
+            <li>Fabricación de tubos y postes de hierro y acero de material comprado</li>
+            <li>Fabricación de otros productos de hierro y acero de material comprado</li>
+            <li>Industria del aluminio</li>
+            <li>Afinación y refinación de cobre (blister y electrolítico), y a la producción de sus aleaciones</li>
+            <li>Refinación de otros metales no ferrosos</li>
+            <li>Laminación secundaria de cobre</li>
+            <li>Laminación secundaria de otros metales no ferrosos</li>
+            <li>Venta de lingotes de oro</li>
+            <li>Moldeo por fundición de todo tipo de piezas a partir de hierro y acero producidos en otro
+                establecimiento
+            </li>
+            <li>Moldeo por fundición de piezas metálicas no ferrosas</li>
+            <li>Fabricación de productos metálicos forjados y troquelados</li>
+            <li>Fabricación de herramientas de mano metálicas sin motor</li>
+            <li>Fabricación de utensilios de cocina metálicos</li>
+            <li>Fabricación de estructuras metálicas</li>
+            <li>Fabricación de productos de herrería</li>
+            <li>Fabricación de calderas industriales</li>
+            <li>Fabricación de tanques metálicos de calibre grueso</li>
+            <li>Fabricación de envases metálicos de calibre ligero para embalaje, como latas para refrescos, toneles,
+                tambores, cubetas, tinas</li>
+            <li>Fabricación de herrajes y cerraduras</li>
+            <li>Fabricación de alambre, productos de alambre y resortes</li>
+            <li>Maquinado de piezas metálicas para maquinaria y equipo en general</li>
+            <li>Fabricación de tornillos, tuercas, armellas, pijas, rondanas, remaches y otros sujetadores metálicos
+            </li>
+            <li>Recubrimientos y terminados metálicos</li>
+            <li>Fabricación de válvulas metálicas</li>
+            <li>Fabricación de baleros y rodamientos</li>
+            <li>Fabricación de otros productos metálicos</li>
+            <li>Orfebrería, joyería, piezas artísticas u ornamentales de oro</li>
+            <li>Orfebrería y joyería de metales y piedras preciosos distintos al oro</li>
+        </ul>
+
+        <ul>
+            <h3>Vidrio, arcilla, loza, cemento y minerales no metálicos</h3>
+
+            <li>Fabricación de artículos de alfarería, porcelana y loza</li>
+            <li>Fabricación de muebles de baño</li>
+            <li>Fabricación de ladrillos no refractarios</li>
+            <li>Fabricación de productos refractarios arcillosos y no arcillosos, como moldes, ladrillos, losetas y
+                baldosas
+                refractarios</li>
+            <li>Fabricación de vidrio</li>
+            <li>Fabricación de espejos (planos, cóncavos y convexos)</li>
+            <li>Fabricación de envases y ampolletas de vidrio</li>
+            <li>Fabricación de fibra de vidrio</li>
+            <li>Fabricación de vasos, jarras, platos, charolas, fruteros, adornos y otros artículos domésticos y
+                ornamentales de vidrio</li>
+            <li>Fabricación de artículos de vidrio de uso industrial y comercial</li>
+            <li>Fabricación de otros productos de vidrio</li>
+            <li>Fabricación de cemento para la construcción</li>
+            <li>Fabricación de concreto</li>
+            <li>Fabricación de tubos y bloques de cemento y concreto, como tubos de drenaje y alcantarillado, celosías,
+                adoquines, tabiques</li>
+            <li>Fabricación de productos preesforzados</li>
+            <li>Fabricación de otros productos de cemento y concreto</li>
+            <li>Fabricación de cal</li>
+            <li>Fabricación de yeso y productos de yeso</li>
+            <li>Fabricación de productos abrasivos</li>
+            <li>Corte, pulido y laminado de mármol fuera de la mina</li>
+            <li>Corte y pulido, fuera de la mina, de otras piedras de cantera, como el granito, la cantera y el ónix,
+                excepto mármol</li>
+            <li>Fabricación de otros productos a base de minerales no metálicos</li>
+            <li>Complejos siderúrgicos</li>
+        </ul>
+
+        <ul>
+            <h3>Alimentos, embutidos, agua o hielo</h3>
+
+            <li>Elaboración de alimentos para animales</li>
+            <li>Elaboración de aceites y grasas vegetales comestibles</li>
+            <li>Tratamiento y envasado de leche líquida</li>
+            <li>Elaboración de leche en polvo, condensada y evaporada</li>
+            <li>Elaboración de derivados y fermentos lácteos</li>
+            <li>Preparación de embutidos y otras conservas de carne de ganado y aves</li>
+            <li>Elaboración de manteca y otras grasas animales comestibles</li>
+            <li>Elaboración de condimentos y aderezos</li>
+            <li>Elaboración de alimentos frescos para consumo inmediato</li>
+            <li>Elaboración de otros alimentos</li>
+            <li>Purificación de agua (por filtración, pasteurización, ósmosis inversa, etc.)</li>
+            <li>Elaboración de hielo</li>
+            <li>Preparación de embutidos y otras conservas de carne de ganado y aves</li>
+        </ul>
+
+        <ul>
+            <h3>Dulces, chocolates, botanas y similares</h3>
+
+            <li>Elaboración y refinación de azúcar de caña</li>
+            <li>Elaboración de otros azúcares como de piloncillo o canela y azúcar de remolacha</li>
+            <li>Elaboración de chocolate y productos de chocolate a partir de cacao</li>
+            <li>Elaboración de productos de chocolate a partir de chocolate</li>
+            <li>Elaboración de dulces, chicles y productos de confitería que no sean de chocolate</li>
+            <li>Elaboración de helados y paletas</li>
+            <li>Elaboración de botanas</li>
+            <li>Elaboración de alimentos básicos con alta densidad calórica</li>
+        </ul>
+
+        <ul>
+            <h3>Conservas, corte y empacado</h3>
+
+            <li>Congelación de frutas y verduras</li>
+            <li>Congelación de guisos</li>
+            <li>Deshidratación de frutas y verduras</li>
+            <li>Conservación de frutas y verduras por procesos distintos a la congelación y la deshidratación. Incluye
+                la
+                elaboración de jugos</li>
+            <li>Conservación de guisos por procesos distintos a la congelación</li>
+            <li>Corte y empacado de carne de ganado y aves</li>
+            <li>Preparación y envasado de pescados y mariscos</li>
+            <li>Congelación de jugos, néctares y concentrados de frutas</li>
+        </ul>
+
+        <ul>
+            <h3>Maquinaria y equipo industrial, comercial y doméstico</h3>
+
+            <li>Fabricación de maquinaria y equipo agrícola</li>
+            <li>Fabricación de maquinaria y equipo pecuario</li>
+            <li>Fabricación de maquinaria y equipo para la construcción</li>
+            <li>Fabricación de maquinaria y equipo para la industria extractiva</li>
+            <li>Fabricación de maquinaria y equipo para la industria de la madera</li>
+            <li>Fabricación de maquinaria y equipo para la industria del hule y del plástico</li>
+            <li>Fabricación de maquinaria y equipo para la industria alimentaria y de las bebidas</li>
+            <li>Fabricación de maquinaria y equipo para la industria textil</li>
+            <li>Fabricación de maquinaria y equipo para la impresión</li>
+            <li>Fabricación de maquinaria y equipo para la industria del vidrio y otros minerales no metálicos</li>
+            <li>Fabricación de maquinaria y equipo para otras industrias manufactureras</li>
+            <li>Fabricación de aparatos fotográficos</li>
+            <li>Fabricación y ensamble de máquinas fotocopiadoras</li>
+            <li>Fabricación de otra maquinaria y equipo para el comercio y los servicios</li>
+            <li>Fabricación de sistemas de aire acondicionado y calefacción</li>
+            <li>Fabricación y ensamble de sistemas de refrigeración industrial y comercial</li>
+            <li>Fabricación de maquinaria y equipo para la industria metalmecánica</li>
+            <li>Fabricación de motores de combustión interna, turbinas y transmisiones</li>
+            <li>Fabricación de bombas</li>
+            <li>Fabricación de sistemas de bombeo para uso industrial, comercial y doméstico</li>
+            <li>Fabricación de maquinaria y equipo para levantar y trasladar</li>
+            <li>Fabricación de equipo para soldar y soldaduras ferrosas y no ferrosas</li>
+            <li>Fabricación de maquinaria y equipo para envasar y empacar</li>
+            <li>Fabricación de básculas y balanzas para uso comercial, industrial y doméstico</li>
+            <li>Fabricación de otra maquinaria y equipo para la industria en general</li>
+            <li>Fabricación de cocinas</li>
+            <li>Fabricación de muebles, excepto cocinas y muebles de oficina y estantería</li>
+            <li>Fabricación de equipo con motor para jardinería</li>
+        </ul>
+
+        <ul>
+            <h3>Pan, tortillas, harinas y cereales</h3>
+
+            <li>Elaboración de harina de trigo</li>
+            <li>Elaboración de harina de maíz</li>
+            <li>Elaboración de harina de otros productos agrícolas</li>
+            <li>Elaboración de malta</li>
+            <li>Elaboración de féculas y otros almidones</li>
+            <li>Elaboración de cereales</li>
+            <li>Panificación industrial</li>
+            <li>Panificación tradicional</li>
+            <li>Elaboración de galletas, pastas para sopa y harinas premezcladas</li>
+            <li>Elaboración de tortillas de maíz y molienda de nixtamal</li>
+            <li>Elaboración de postres en polvo</li>
+            <li>Elaboración de levadura</li>
+        </ul>
+
+        <ul>
+            <h3>Bebidas no alcohólicas y concentrados para prepararlas</h3>
+
+            <li>Elaboración de café soluble</li>
+            <li>Preparación y envasado de té</li>
+            <li>Elaboración de concentrados, polvos, jarabes y esencias de sabor para preparar refrescos, bebidas
+                hidratantes o rehidratantes que no tienen azúcares añadidos.</li>
+            <li>Elaboración de colorantes y saborizantes naturales para alimentos, o cualquier producto distinto a
+                refrescos
+            </li>
+            <li>Productor, envasador o fabricante de concentrados o jarabes para preparar refresco que se expanda en
+                envase
+                abierto utilizando aparatos automáticos, eléctricos o mecánicos que no tienen azúcares añadidos</li>
+            <li>Productor, envasador o fabricante de refrescos que no utiliza en su elaboración como edulcorante
+                únicamente
+                la caña de azúcar</li>
+            <li>Productor, envasador o fabricante de bebidas hidratantes o rehidratantes que no utiliza en su
+                elaboración
+                como edulcorante únicamente la caña de azúcar</li>
+            <li>Elaboración de concentrados, polvos, jarabes y esencias de sabor para preparar refrescos, bebidas
+                hidratantes o rehidratantes que tienen azúcares añadidos.</li>
+            <li>Productor, envasador o fabricante de concentrados o jarabes para preparar refrescos que se expandan en
+                envases abiertos utilizando aparatos automáticos, eléctricos o mecánicos tienen azúcares añadidos.</li>
+            <li>Productor, envasador o fabricante de refrescos que utiliza en dicha elaboración como edulcorante
+                únicamente
+                caña de azúcar</li>
+            <li>Productor, envasador o fabricante de bebidas hidratantes o rehidratantes que utiliza en dicha
+                elaboración
+                como edulcorante únicamente caña de azúcar</li>
+            <li>Elaboración de bebidas saborizadas con azúcares añadidos.</li>
+            <li>Fabricación o producción de concentrados, polvos, jarabes, esencias que permitan obtener bebidas
+                saborizadas
+                que contienen azúcares añadidos.</li>
+        </ul>
+
+        <ul>
+            <h3>Equipo de oficina, comunicación y eléctrico y productos relacionados</h3>
+
+            <li>Fabricación de computadoras y equipo periférico</li>
+            <li>Fabricación de aparatos telefónicos y equipo de comunicación alámbrica</li>
+            <li>Fabricación de equipo de transmisión y recepción de señales de radio, televisión y cable</li>
+            <li>Fabricación de otros equipos de comunicación</li>
+            <li>Fabricación de equipo de audio y de video</li>
+            <li>Fabricación de componentes electrónicos</li>
+            <li>Fabricación y ensamble de relojes y sus partes, maquinaria para relojes, y otros instrumentos para medir
+                el
+                tiempo</li>
+            <li>Fabricación de otros instrumentos de navegación, medición, médicos y de control</li>
+            <li>Fabricación y reproducción de medios magnéticos y ópticos</li>
+            <li>Fabricación de focos</li>
+            <li>Fabricación de lámparas ornamentales</li>
+            <li>Fabricación de enseres electrodomésticos menores</li>
+            <li>Fabricación de aparatos de línea blanca</li>
+            <li>Fabricación de motores y generadores eléctricos trifásicos y monofásicos o de corriente directa</li>
+            <li>Fabricación de equipo y aparatos de distribución de energía eléctrica</li>
+            <li>Fabricación de acumuladores y pilas</li>
+            <li>Fabricación de alambres y cables de conducción eléctrica y de comunicación</li>
+            <li>Fabricación de enchufes, contactos, fusibles y otros accesorios para instalaciones eléctricas</li>
+            <li>Fabricación de productos eléctricos de carbón y grafito</li>
+            <li>Fabricación de otros productos eléctricos</li>
+            <li>Fabricación de muebles de oficina y estantería</li>
+            <li>Fabricación de artículos y accesorios para escritura, pintura, dibujo y actividades de oficina</li>
+        </ul>
+
+        <ul>
+            <h3>Equipo de transporte y productos relacionados</h3>
+
+            <li>Fabricación o ensamble de automóviles y camionetas</li>
+            <li>Venta de vehículos ligeros con motor de combustión interna, como automóviles, furgonetas (minivans) y
+                otras
+                camionetas de carga ligera</li>
+            <li>Fabricación o ensamble de camiones y tractocamiones</li>
+            <li>Fabricación de carrocerías y remolques</li>
+            <li>Fabricación de motores de gasolina y sus partes para vehículos automotrices</li>
+            <li>Fabricación de equipo eléctrico y electrónico para vehículos automotores</li>
+            <li>Fabricación de partes de sistemas de dirección y de suspensión para vehículos automotrices</li>
+            <li>Fabricación de partes de sistemas de frenos para vehículos automotrices</li>
+            <li>Fabricación de partes de sistemas de transmisión</li>
+            <li>Fabricación de asientos para vehículos automotores</li>
+            <li>Fabricación de piezas metálicas troqueladas para vehículos automotrices</li>
+            <li>Fabricación de otras partes para vehículos automotrices</li>
+            <li>Fabricación, reconstrucción, ensamble y subensamble de equipo aeroespacial, incluso motores</li>
+            <li>Fabricación de equipo ferroviario</li>
+            <li>Fabricación de embarcaciones</li>
+            <li>Fabricación de motocicletas y sus partes</li>
+            <li>Fabricación de bicicletas y triciclos y sus partes</li>
+            <li>Fabricación de otro equipo de transporte</li>
+        </ul>
+
+        <ul>
+            <h3>Textiles e insumos textiles</h3>
+
+            <li>Preparación e hilado de fibras duras naturales</li>
+            <li>Preparación e hilado de fibras blandas</li>
+            <li>Fabricación de hilos para coser y bordar</li>
+            <li>Fabricación de telas anchas de trama</li>
+            <li>Fabricación de telas angostas de trama y pasamanería</li>
+            <li>Fabricación de telas no tejidas</li>
+            <li>Fabricación de telas de punto</li>
+            <li>Acabado de fibras, hilados, hilos y telas</li>
+            <li>Recubrimiento de telas</li>
+            <li>Tejido y confección de alfombras y tapetes</li>
+            <li>Confección de cortinas, blancos y similares</li>
+            <li>Confección de costales</li>
+            <li>Confección de productos de textiles recubiertos y de materiales sucedáneos</li>
+            <li>Confección de productos bordados y deshilados como servilletas, manteles, rebozos</li>
+            <li>Fabricación de redes y otros productos de cordelería</li>
+            <li>Fabricación de productos textiles reciclados</li>
+            <li>Fabricación de banderas y otros productos confeccionados</li>
+            <li>Preparación, tejido y anudado de fibras de ixtle, palma y lechuguilla</li>
+        </ul>
+
+        <ul>
+            <h3>Prendas y accesorios de vestir y calzado</h3>
+
+            <li>Tejido de calcetines y medias</li>
+            <li>Tejido de ropa interior de punto</li>
+            <li>Tejido de ropa exterior de punto</li>
+            <li>Confección de ropa (chamarras, sacos, faldas, abrigos) de cuero, piel y materiales sucedáneos</li>
+            <li>Confección en serie de ropa interior y de dormir</li>
+            <li>Confección en serie de camisas y guayaberas</li>
+            <li>Confección en serie de uniformes (escolares, industriales, etc.) y ropa de trabajo</li>
+            <li>Confección en serie de ropa especial: artística, disfraces, trajes típicos, trajes de torero, hábitos
+                religiosos</li>
+            <li>Confección de ropa sobre medida</li>
+            <li>Confección de otra ropa de materiales textiles</li>
+            <li>Fabricación de sombreros, gorras, cachuchas, boinas, viseras y otros accesorios similares hechos a base
+                de
+                materiales diversos</li>
+            <li>Confección de otros accesorios de vestir</li>
+            <li>Curtido y acabado de cuero y piel</li>
+            <li>Fabricación de calzado con corte de piel y cuero</li>
+            <li>Fabricación de calzado con corte de tela</li>
+            <li>Fabricación de calzado de plástico</li>
+            <li>Fabricación de calzado de hule</li>
+            <li>Fabricación de huaraches, calzado tejido y de otro tipo de materiales no clasificados en otra parte</li>
+            <li>Fabricación de bolsos de mano, maletas y similares</li>
+            <li>Fabricación de artículos de talabartería</li>
+        </ul>
+
+        <ul>
+            <h3>Perfumería, farmacia, juguetes, artículos deportivos al por mayor</h3>
+
+            <li>Comercio al por mayor de productos farmacéuticos</li>
+            <li>Comercio al por mayor de artículos de perfumería</li>
+            <li>Comercio al por mayor de juguetes</li>
+            <li>Comercio al por mayor de artículos y aparatos deportivos</li>
+        </ul>
+
+        <ul>
+            <h3>Papelería, papel, madera, construcción y desechos al por mayor</h3>
+
+            <li>Venta de terreno</li>
+            <li>Enajenación de arena, grava, piedra, tierra y otros bienes muebles provenientes del suelo</li>
+            <li>Comercio al por mayor de artículos de papelería para uso escolar y de oficina</li>
+            <li>Comercio al por mayor de libros</li>
+            <li>Comercio al por mayor de revistas y periódicos</li>
+            <li>Comercio al por mayor de cemento, tabique y grava</li>
+            <li>Comercio al por mayor de otros materiales para la construcción, excepto de madera</li>
+            <li>Comercio al por mayor de productos químicos para uso industrial</li>
+            <li>Comercio al por mayor de envases, papel y cartón</li>
+            <li>Comercio al por mayor de madera</li>
+            <li>Comercio al por mayor de pintura (Excepto en aerosol)</li>
+            <li>Comercio al por mayor de desechos metálicos</li>
+            <li>Comercio al por mayor de desechos de papel y de cartón</li>
+            <li>Comercio al por mayor de desechos de vidrio</li>
+            <li>Comercio al por mayor de desechos de plástico</li>
+            <li>Comercio al por mayor de otros materiales de desecho</li>
+        </ul>
+
+        <ul>
+            <h3>Otros productos y servicios al por mayor</h3>
+
+            <li>Comercio al por mayor de discos y casetes</li>
+            <li>Comercio al por mayor de fertilizantes, plaguicidas y semillas para siembra</li>
+            <li>Comercio al por mayor de medicamentos veterinarios y alimentos para animales</li>
+            <li>Comercio al por mayor de ganado y aves de corral en pie</li>
+            <li>Comercio al por mayor de artículos y accesorios para diseño y pintura artística</li>
+            <li>Venta al por mayor por comisión y consignación</li>
+            <li>Otros intermediarios de comercio al por mayor</li>
+            <li>Comercio al por mayor por medios masivos de comunicación (como correo e internet) y otros medios</li>
+        </ul>
+
+        <ul>
+            <h3>Maquinaria y equipo industrial, eléctrico, comercial, doméstico y de transporte al por mayor</h3>
+
+            <li>Comercio al por mayor de electrodomésticos menores y aparatos de línea blanca</li>
+            <li>Comercio al por mayor de materiales metálicos</li>
+            <li>Comercio al por mayor de equipo y material eléctrico</li>
+            <li>Comercio al por mayor de vidrios y espejos</li>
+            <li>Comercio al por mayor de otras materias primas para otras industrias</li>
+            <li>Comercio al por mayor de maquinaria y equipo agropecuario, forestal y para la pesca</li>
+            <li>Comercio al por mayor de maquinaria y equipo para la construcción y la minería</li>
+            <li>Comercio al por mayor de maquinaria y equipo para la industria manufacturera</li>
+            <li>Comercio al por mayor de equipo de telecomunicaciones, fotografía y cinematografía</li>
+            <li>Comercio al por mayor de mobiliario, equipo e instrumental médico y de laboratorio</li>
+            <li>Comercio al por mayor de maquinaria y equipo para otros servicios y para actividades comerciales</li>
+            <li>Comercio al por mayor de equipo y accesorios de cómputo</li>
+            <li>Comercio al por mayor de mobiliario y equipo de oficina</li>
+            <li>Comercio al por mayor de otra maquinaria y equipo de uso general</li>
+            <li>Comercio al por mayor de camiones</li>
+            <li>Comercio al por mayor de carrocerías, cajas de carga, remolques y semirremolques</li>
+        </ul>
+
+        <ul>
+            <h3>Bebidas con contenido alcohólico, alcohol y tabacos al por mayor</h3>
+
+            <li>Comercio al por mayor de bebidas refrescantes</li>
+            <li>Comercio al por mayor de vinos de mesa</li>
+            <li>Comercio al por mayor de otras bebidas a base de uva</li>
+            <li>Comercio al por mayor de aguamiel y pulque</li>
+            <li>Comercio al por mayor de sidra y otras bebidas fermentadas</li>
+            <li>Comercio al por mayor de ron y otras bebidas destiladas de caña</li>
+            <li>Comercio al por mayor de bebidas destiladas de agave</li>
+            <li>Comercio al por mayor de cerveza</li>
+            <li>Comercio al por mayor de cigarros, puros y tabaco</li>
+            <li>Venta de alcohol y alcohol desnaturalizado a hospitales en envases de hasta 20 litros</li>
+            <li>Venta de mieles incristalizables para transformarlas en alcohol</li>
+            <li>Venta de alcohol y alcohol desnaturalizado</li>
+            <li>Comercio al por mayor de bebidas alcohólicas no clasificados en otra parte</li>
+        </ul>
+
+        <ul>
+            <h3>Dulces, botanas, helados, hielo y bebidas no alcohólicas al por mayor</h3>
+
+            <li>Comercio al por mayor de materias primas para repostería</li>
+            <li>Comercio al por mayor de botanas y frituras, como papas fritas, chicharrones de harina y de cerdo,
+                tostadas,
+                cacahuates, semillas fritas, palomitas de maíz</li>
+            <li>Comercio al por mayor de conservas alimenticias enlatadas, en salmuera, encurtidos, productos
+                alimenticios
+                congelados, en almíbar, en aceite, purés</li>
+            <li>Comercio al por mayor de helados, paletas de hielo, gelatinas, flanes, budines y otros productos
+                alimenticios para consumo humano no clasificados en otra parte</li>
+            <li>Comercio al por mayor de agua purificada y hielo</li>
+            <li>Comercio al por mayor de concentrados, polvos, jarabes y esencias de sabor para preparar refrescos,
+                bebidas
+                hidratantes o rehidratantes elaborados con azúcar de caña y otros edulcorantes</li>
+            <li>Comercio al por mayor de concentrados o jarabes para preparar refrescos que se expendan en envases
+                abiertos
+                utilizando aparatos automáticos, eléctricos o mecánicos elaborados con azúcar de caña y otros
+                edulcorantes
+            </li>
+            <li>Comercio al por mayor de refrescos o bebidas hidratantes o rehidratantes elaborados con azúcar de caña y
+                otros edulcorantes</li>
+            <li>Venta de mieles incristalizables que no se utilicen para transformarlas en alcohol</li>
+            <li>Comercio al por mayor de refrescos o bebidas hidratantes o rehidratantes elaborados únicamente con
+                azúcar de
+                caña como edulcorante</li>
+            <li>Comercio al por mayor de concentrados, polvos, jarabes y esencias de sabor para preparar refrescos,
+                bebidas
+                hidratantes o rehidratantes elaborados únicamente con azúcar de caña como edulcorante</li>
+            <li>Comercio al por mayor de concentrados o jarabes para preparar refrescos que se expendan en envases
+                abiertos
+                utilizando aparatos automáticos, eléctricos o mecánicos elaborados únicamente con azúcar de caña como
+                edulcorante</li>
+            <li>Comercio de bebidas saborizadas con azúcares añadidos</li>
+            <li>Comercio de concentrados, polvos, jarabes, esencias que permitan obtener bebidas saborizadas que
+                contienen
+                azúcares añadidos.</li>
+        </ul>
+
+        <ul>
+            <h3>Textiles, prendas de vestir, joyas y calzado al por mayor</h3>
+
+            <li>Comercio al por mayor de fibras, hilos y telas</li>
+            <li>Comercio al por mayor de blancos</li>
+            <li>Comercio al por mayor de otros productos textiles</li>
+            <li>Comercio al por mayor de ropa</li>
+            <li>Comercio al por mayor de calzado</li>
+            <li>Comercio al por mayor de joyería, orfebrería, piezas artísticas u ornamentales de oro</li>
+            <li>Comercio al por mayor de artículos de joyería y otros accesorios de vestir</li>
+        </ul>
+
+        <ul>
+            <h3>Abarrotes, carnes, pescados, leche, frutas o verduras, pan y pasteles al por mayor</h3>
+
+            <li>Comercio al por mayor de abarrotes</li>
+            <li>Comercio al por mayor de carnes rojas</li>
+            <li>Comercio al por mayor de carne y vísceras de pollo y otras aves de corral</li>
+            <li>Comercio al por mayor de pescados y mariscos frescos, secos, salados y congelados</li>
+            <li>Comercio al por mayor de frutas y verduras frescas</li>
+            <li>Comercio al por mayor de huevo de gallina y de otras aves</li>
+            <li>Comercio al por mayor de semillas y granos alimenticios, frutas secas, chiles secos y especias (clavos,
+                pimienta, azafrán, comino, nuez moscada, canela)</li>
+            <li>Comercio al por mayor de leche</li>
+            <li>Comercio al por mayor de productos lácteos, como crema, mantequilla, yogur, queso</li>
+            <li>Comercio al por mayor de embutidos</li>
+            <li>Comercio al por mayor de pan y pasteles y otros productos de panadería</li>
+        </ul>
+
+        <ul>
+            <h3>Mensajería y almacenamiento</h3>
+
+            <li>Servicios de mensajería y paquetería foránea</li>
+            <li>Servicios de mensajería y paquetería local</li>
+            <li>Otros servicios de almacenamiento general sin instalaciones especializadas</li>
+            <li>Almacenamiento con refrigeración</li>
+            <li>Almacenamiento de productos agropecuarios que no requieren refrigeración</li>
+            <li>Otros servicios de almacenamiento con instalaciones especializadas</li>
+        </ul>
+
+
+        <h3>Servicios relacionados con el autotransporte</h3>
+        <ul>
+            <li>Alquiler de autobuses con chofer</li>
+            <li>Alquiler de automóviles con chofer</li>
+            <li>Servicios a la navegación aérea</li>
+            <li>Administración de aeropuertos y helipuertos</li>
+            <li>Otros servicios relacionados con el transporte aéreo</li>
+            <li>Servicios relacionados con el transporte por ferrocarril</li>
+            <li>Administración de puertos y muelles</li>
+            <li>Servicios de carga y descarga para el transporte por agua</li>
+            <li>Servicios para la navegación por agua</li>
+            <li>Otros servicios relacionados con el transporte por agua</li>
+            <li>Remolque de vehículos de motor</li>
+            <li>Servicios de administración de centrales camioneras</li>
+            <li>Servicios de administración de carreteras, puentes y servicios auxiliares</li>
+            <li>Servicios de báscula para el transporte</li>
+            <li>Otros servicios de intermediación para el transporte de carga</li>
+            <li>Otros servicios relacionados con el transporte</li>
+        </ul>
+
+        <h3>Terrestre de pasaje y turismo</h3>
+        <ul>
+            <li>Transporte de pasajeros urbano y suburbano en autobuses</li>
+            <li>Transporte de pasajeros urbano y suburbano en automóviles colectivos de ruta fija</li>
+            <li>Transporte de pasajeros urbano y suburbano en trolebuses y trenes ligeros</li>
+            <li>Transporte de pasajeros urbano y suburbano en metro</li>
+            <li>Transporte de pasajeros interurbano y rural</li>
+            <li>Transporte de pasajeros en taxis de sitio</li>
+            <li>Transporte de pasajeros en taxis de ruleteo</li>
+            <li>Servicio de limusinas</li>
+            <li>Transporte escolar y de personal</li>
+            <li>Otro transporte terrestre de pasajeros</li>
+            <li>Transporte turístico por tierra</li>
+            <li>Otro transporte turístico</li>
+            <li>Transporte terrestre foráneo de pasajeros</li>
+        </ul>
+
+        <h3>Por ductos</h3>
+        <ul>
+            <li>Transporte de gas natural por ductos</li>
+            <li>Transporte por ductos de otros productos, excepto de productos refinados del petróleo</li>
+        </ul>
+
+        <h3>Aéreo, marítimo y ferrocarril</h3>
+        <ul>
+            <li>Transporte aéreo regular de pasajeros y de carga en aeronaves con matrícula nacional con rutas y
+                horarios establecidos</li>
+            <li>Transporte aéreo regular de pasajeros y de carga en aeronaves con matrícula extranjera con rutas y
+                horarios establecidos</li>
+            <li>Transporte aéreo no regular de pasajeros y de carga por vía aérea, sin rutas ni horarios fijos</li>
+            <li>Transporte por ferrocarril de pasajeros y de carga</li>
+            <li>Transporte marítimo de altura</li>
+            <li>Transporte marítimo de cabotaje</li>
+            <li>Transporte marítimo de altura o de cabotaje de petróleo y gas natural por mar</li>
+            <li>Transporte de pasajeros y de carga por ríos, presas, lagos, lagunas y otras vías navegables interiores,
+                servicio de remolque de carga por aguas interiores</li>
+            <li>Transporte turístico por agua</li>
+        </ul>
+
+        <h3>Terrestre de carga</h3>
+        <ul>
+            <li>Autotransporte local de productos agropecuarios sin refrigeración</li>
+            <li>Otro autotransporte local de carga general</li>
+            <li>Autotransporte foráneo de productos agropecuarios sin refrigeración</li>
+            <li>Otro autotransporte foráneo de carga general</li>
+            <li>Servicio de mudanzas</li>
+            <li>Autotransporte local de materiales para la construcción cuyo radio de acción se limita al área
+                metropolitana, municipio o localidad en que operan</li>
+            <li>Autotransporte local de materiales y residuos peligrosos cuyo radio de acción se limita al área
+                metropolitana, municipio o localidad en que operan</li>
+            <li>Autotransporte local con refrigeración cuyo radio de acción se limita al área metropolitana, municipio o
+                localidad en que operan</li>
+            <li>Autotransporte local de madera y sus derivados cuyo radio de acción se limita al área metropolitana,
+                municipio o localidad en que operan</li>
+            <li>Otro autotransporte local de carga especializado</li>
+            <li>Autotransporte foráneo de materiales para la construcción</li>
+            <li>Autotransporte foráneo de materiales y residuos peligrosos</li>
+            <li>Autotransporte foráneo con refrigeración</li>
+            <li>Autotransporte foráneo de madera y sus derivados</li>
+            <li>Otro autotransporte foráneo de carga especializado</li>
+        </ul>
+
+        <h3>Radio, televisión, cine y música</h3>
+        <ul>
+            <li>Producción de películas cinematográficas y videos</li>
+            <li>Producción de programas para la televisión</li>
+            <li>Producción de videoclips, comerciales y otros materiales audiovisuales</li>
+            <li>Distribución de películas cinematográficas, videos y otros materiales audiovisuales</li>
+            <li>Exhibición de películas cinematográficas, videos y otros materiales audiovisuales</li>
+            <li>Servicios de postproducción y otros servicios para la industria fílmica y del video</li>
+            <li>Productoras discográficas</li>
+            <li>Producción y distribución de discos y cintas magnetofónicas</li>
+            <li>Editoras de música</li>
+            <li>Grabación de discos y cintas magnetofónicas</li>
+            <li>Otros servicios de grabación del sonido</li>
+            <li>Transmisión de programas de radio, excepto a través de Internet</li>
+            <li>Transmisión de programas de televisión, excepto a través de Internet</li>
+            <li>Producción de programación de canales para sistemas de televisión por cable o satelitales, excepto a
+                través de Internet</li>
+            <li>Distribución por suscripción de programas de televisión, excepto a través de Internet</li>
+        </ul>
+
+        <h3>Medios impresos, bibliotecas y de información</h3>
+        <ul>
+            <li>Edición de periódicos no integrada con la impresión, excepto a través de Internet</li>
+            <li>Edición de periódicos integrada con la impresión</li>
+            <li>Edición de revistas y otras publicaciones periódicas no integrada con la impresión, excepto a través de
+                Internet</li>
+            <li>Edición de revistas y otras publicaciones periódicas integrada con la impresión</li>
+            <li>Edición de libros no integrada con la impresión, excepto a través de Internet</li>
+            <li>Edición de libros integrada con la impresión</li>
+            <li>Edición de directorios y de listas de correo no integrada con la impresión, excepto a través de Internet
+            </li>
+            <li>Edición de directorios y de listas de correo integrada con la impresión</li>
+            <li>Edición de otros materiales no integrada con la impresión, excepto a través de Internet</li>
+            <li>Edición de otros materiales integrada con la impresión</li>
+            <li>Otros servicios de suministro de información</li>
+        </ul>
+
+        <h3>Otros servicios relacionados con la comunicación</h3>
+        <ul>
+            <li>Edición de software, excepto a través de Internet</li>
+            <li>Creación y difusión de contenido exclusivamente a través de Internet</li>
+            <li>Proveedores de acceso a Internet y servicios de búsqueda en la red</li>
+            <li>Procesamiento electrónico de información, hospedaje de páginas web y otros servicios relacionados</li>
+        </ul>
+
+        <h3>Telecomunicaciones</h3>
+        <ul>
+            <li>Telefonía tradicional</li>
+            <li>Telegrafía y otras telecomunicaciones alámbricas del sector privado</li>
+            <li>Telefonía celular</li>
+            <li>Otras telecomunicaciones inalámbricas, excepto los servicios de satélites</li>
+            <li>Reventa de servicios de telecomunicaciones</li>
+            <li>Servicios de satélites</li>
+            <li>Otros servicios de telecomunicaciones</li>
+        </ul>
+
+        <h3>Educativos</h3>
+        <ul>
+            <li>Escuelas de educación preescolar pertenecientes al sector privado</li>
+            <li>Escuelas de educación primaria pertenecientes al sector privado, que tengan autorización o
+                reconocimiento de validez oficial de estudios, en los términos de la Ley General de Educación</li>
+            <li>Escuelas de educación secundaria general pertenecientes al sector privado, que tengan autorización o
+                reconocimiento de validez oficial de estudios, en los términos de la Ley General de Educación</li>
+            <li>Escuelas de educación secundaria técnica pertenecientes al sector privado, que tengan autorización o
+                reconocimiento de validez oficial de estudios, en los términos de la Ley General de Educación</li>
+            <li>Escuelas de educación media técnica terminal pertenecientes al sector privado, que tengan autorización o
+                reconocimiento de validez oficial de estudios, en los términos de la Ley General de Educación</li>
+            <li>Escuelas de educación media superior pertenecientes al sector privado, que tengan autorización o
+                reconocimiento de validez oficial de estudios, en los términos de la Ley General de Educación</li>
+            <li>Escuelas del sector privado que combinan diversos niveles de educación, que tengan autorización o
+                reconocimiento de validez oficial de estudios, en los términos de la Ley General de Educación</li>
+            <li>Escuelas de educación especial pertenecientes al sector privado, que tengan autorización o
+                reconocimiento de validez oficial de estudios, en los términos de la Ley General de Educación</li>
+            <li>Escuelas de educación postbachillerato no universitaria pertenecientes al sector privado, que tengan
+                autorización o reconocimiento de validez oficial de estudios, en los términos de la Ley General de
+                Educación</li>
+            <li>Escuelas de educación superior pertenecientes al sector privado, que tengan autorización o
+                reconocimiento de validez oficial de estudios, en los términos de la Ley General de Educación</li>
+            <li>Escuelas comerciales y secretariales del sector privado, que tengan autorización o reconocimiento de
+                validez oficial de estudios, en los términos de la Ley General de Educación</li>
+            <li>Escuelas de computación pertenecientes al sector privado, que tengan autorización o reconocimiento de
+                validez oficial de estudios, en los términos de la Ley General de Educación</li>
+            <li>Escuelas del sector privado para la capacitación de ejecutivos, que tengan autorización o reconocimiento
+                de validez oficial de estudios, en los términos de la Ley General de Educación</li>
+            <li>Escuelas del sector privado dedicadas a la enseñanza de oficios, que tengan autorización o
+                reconocimiento de validez oficial de estudios, en los términos de la Ley General de Educación</li>
+            <li>Escuelas de arte pertenecientes al sector privado, que tengan autorización o reconocimiento de validez
+                oficial de estudios, en los términos de la Ley General de Educación</li>
+            <li>Escuelas de deporte pertenecientes al sector privado, que tengan autorización o reconocimiento de
+                validez oficial de estudios, en los términos de la Ley General de Educación</li>
+            <li>Escuelas del sector privado dedicadas a la enseñanza de idiomas, que tengan autorización o
+                reconocimiento de validez oficial de estudios, en los términos de la Ley General de Educación</li>
+            <li>Escuelas del sector privado, que no cuenten con autorización o reconocimiento de validez oficial de
+                estudios, en los términos de la Ley General de Educación</li>
+            <li>Otros servicios educativos proporcionados por el sector privado</li>
+        </ul>
+
+        <h3>Apoyo a los negocios y manejo de desechos</h3>
+        <ul>
+            <li>Servicios de casetas telefónicas.</li>
+            <li>Servicios de recepción de llamadas telefónicas y promoción por teléfono</li>
+            <li>Servicios de fotocopiado, fax y afines</li>
+            <li>Servicios de investigación y de protección y custodia, excepto mediante monitoreo</li>
+            <li>Servicios de protección y custodia mediante el monitoreo de sistemas de seguridad</li>
+            <li>Servicios de control y exterminación de plagas</li>
+            <li>Servicios de limpieza de inmuebles</li>
+            <li>Servicios de instalación y mantenimiento de áreas verdes</li>
+            <li>Servicios de limpieza de tapicería, alfombras y muebles</li>
+            <li>Otros servicios de limpieza</li>
+            <li>Servicios de empacado y etiquetado</li>
+            <li>Otros servicios de apoyo a los negocios</li>
+            <li>Manejo de desechos peligrosos y servicios de remediación a zonas dañadas por desechos peligrosos</li>
+            <li>Manejo de desechos no peligrosos y servicios de remediación a zonas dañadas por desechos no peligrosos
+            </li>
+        </ul>
+
+        <h3>Asistencia o rehabilitación, culturales y ecológicas</h3>
+        <ul>
+            <li>Residencias del sector privado con cuidados de enfermeras para enfermos convalecientes, en
+                rehabilitación, incurables y terminales</li>
+            <li>Residencias del sector privado para el cuidado de personas con problemas de retardo mental</li>
+            <li>Residencias del sector privado para el cuidado de personas con problemas de salud mental y abuso de
+                substancias</li>
+            <li>Asilos y otras residencias del sector privado para el cuidado de ancianos y discapacitados</li>
+        </ul>
+
+        <h3>Salud</h3>
+        <ul>
+            <li>Laboratorios de pruebas</li>
+            <li>Centros del sector privado dedicados a la atención médica externa de enfermos mentales y adictos</li>
+            <li>Otros centros del sector privado para la atención de pacientes que no requieren hospitalización</li>
+            <li>Laboratorios médicos y de diagnóstico pertenecientes al sector privado</li>
+            <li>Servicios de ambulancias</li>
+            <li>Servicios de bancos de órganos, de bancos de sangre y otros servicios auxiliares al tratamiento médico
+                prestados por el sector privado</li>
+            <li>Hospitales generales del sector privado que requieran de título de médico conforme a las leyes</li>
+            <li>Hospitales del sector privado psiquiátricos y para el tratamiento por abuso de substancias</li>
+            <li>Hospitales del sector privado dedicados a otras especialidades médicas que requieran de título de médico
+                conforme a las leyes</li>
+        </ul>
+
+        <h3>Otros servicios</h3>
+        <ul>
+            <li>Servicios de estudio fotográfico</li>
+            <li>Baños públicos</li>
+            <li>Sanitarios públicos y bolerías</li>
+            <li>Lavanderías y tintorerías</li>
+            <li>Servicios funerarios</li>
+            <li>Administración de cementerios</li>
+            <li>Estacionamientos y pensiones para automóviles</li>
+            <li>Servicios de revelado de fotografías</li>
+            <li>Otros servicios como máquinas fotográficas que funcionan con monedas, de casilleros que funcionan con
+                monedas, de guarda paquetes</li>
+        </ul>
+
+        <h3>Técnicos</h3>
+        <ul>
+            <li>Reparación mecánica en general de automóviles y camiones</li>
+            <li>Reparación del sistema eléctrico de automóviles y camiones</li>
+            <li>Rectificación de motores de automóviles y camiones</li>
+            <li>Reparación de transmisiones de automóviles y camiones</li>
+            <li>Reparación de suspensiones de automóviles y camiones</li>
+            <li>Alineación y balanceo de automóviles y camiones</li>
+            <li>Otras reparaciones mecánicas y eléctricas de automóviles y camiones</li>
+            <li>Hojalatería y pintura de automóviles y camiones</li>
+            <li>Tapicería de automóviles y camiones</li>
+            <li>Instalación de cristales y otras reparaciones a la carrocería de automóviles y camiones</li>
+            <li>Reparación menor de llantas</li>
+            <li>Lavado y lubricado de automóviles y camiones</li>
+            <li>Otros servicios de reparación y mantenimiento de automóviles y camiones</li>
+            <li>Reparación y mantenimiento de equipo electrónico de uso doméstico</li>
+            <li>Reparación y mantenimiento de otro equipo electrónico y de equipo de precisión</li>
+            <li>Reparación y mantenimiento de maquinaria y equipo agropecuario y forestal</li>
+            <li>Reparación y mantenimiento de maquinaria y equipo industrial</li>
+            <li>Reparación y mantenimiento de maquinaria y equipo para mover, acomodar y levantar materiales</li>
+            <li>Reparación y mantenimiento de maquinaria y equipo comercial y de servicios</li>
+            <li>Reparación y mantenimiento de aparatos eléctricos para el hogar y personales</li>
+            <li>Reparación de tapicería de muebles para el hogar</li>
+            <li>Reparación de calzado y otros artículos de piel y cuero</li>
+            <li>Cerrajerías</li>
+            <li>Reparación y mantenimiento de motocicletas</li>
+            <li>Reparación y mantenimiento de bicicletas</li>
+            <li>Reparación y mantenimiento de otros artículos para el hogar y personales</li>
+            <li>Salones y clínicas de belleza y peluquerías</li>
+        </ul>
+
+        <h3>Financieros</h3>
+        <ul>
+            <li>Transmisores, dispersores de dinero. Pagadores</li>
+            <li>Casas de préstamo y empeño</li>
+        </ul>
+
+        <h3>Apoyo a la construcción</h3>
+        <ul>
+            <li>División de terrenos</li>
+            <li>Instalación de señalamientos y protecciones de obras viales</li>
+            <li>Trabajos de cimentaciones</li>
+            <li>Montaje de estructuras de concreto prefabricadas</li>
+            <li>Montaje de estructuras de acero prefabricadas</li>
+            <li>Trabajos de albañilería</li>
+            <li>Otros trabajos en exteriores no clasificados en otra parte</li>
+            <li>Instalaciones eléctricas en construcciones</li>
+            <li>Instalaciones hidrosanitarias y de gas en construcciones</li>
+            <li>Instalaciones de sistemas centrales de aire acondicionado y calefacción</li>
+            <li>Otras instalaciones y equipamiento en construcciones</li>
+            <li>Colocación de muros falsos y aislamiento</li>
+            <li>Trabajos de enyesado, empastado y tiroleado</li>
+            <li>Trabajos de pintura y otros cubrimientos de paredes</li>
+            <li>Colocación de pisos flexibles (como alfombras, linóleos y vinilos) y pisos de madera (como parquet,
+                duela y tablón colonial)</li>
+            <li>Colocación de pisos cerámicos y azulejos</li>
+            <li>Instalación de productos de carpintería</li>
+            <li>Otros trabajos de acabados en edificaciones</li>
+            <li>Preparación de terrenos para la construcción</li>
+            <li>Otros trabajos especializados para la construcción</li>
+        </ul>
+
+        <h3>Apoyo a actividades agropecuarias y forestales</h3>
+        <ul>
+            <li>Servicios de fumigación agrícola</li>
+            <li>Despepite de algodón</li>
+            <li>Beneficio de productos agrícolas</li>
+            <li>Otros servicios relacionados con la agricultura</li>
+            <li>Servicios relacionados con la ganadería</li>
+            <li>Servicios relacionados con el aprovechamiento forestal</li>
+            <li>Beneficio del arroz</li>
+            <li>Matanza de ganado y aves</li>
+            <li>Beneficio del café</li>
+            <li>Tostado y molienda de café</li>
+        </ul>
+
+        <h3>Alquiler</h3>
+        <ul>
+            <li>Inmobiliarias y corredores de bienes raíces</li>
+            <li>Alquiler de automóviles sin chofer</li>
+            <li>Alquiler de camiones de carga sin chofer</li>
+            <li>Alquiler de autobuses, minibuses y remolques sin chofer</li>
+            <li>Alquiler de aparatos eléctricos y electrónicos para el hogar</li>
+            <li>Alquiler de ropa</li>
+            <li>Alquiler de videocasetes y discos</li>
+            <li>Alquiler de mesas, sillas, vajillas y similares</li>
+            <li>Alquiler de instrumentos musicales</li>
+            <li>Alquiler de otros artículos para el hogar</li>
+            <li>Centros generales de alquiler</li>
+            <li>Alquiler de maquinaria para construcción, minería y actividades forestales</li>
+            <li>Alquiler de equipo de transporte, excepto terrestre</li>
+            <li>Alquiler de equipo de cómputo y de otras máquinas y mobiliario de oficina</li>
+            <li>Alquiler de maquinaria y equipo agropecuario, pesquero y para la industria de la transformación</li>
+            <li>Alquiler de equipo para levantar, mover y acomodar materiales</li>
+            <li>Alquiler de equipo para el comercio y los servicios</li>
+        </ul>
+
+        <h3>Profesionales</h3>
+        <ul>
+            <li>Diseño y decoración de interiores</li>
+            <li>Diseño de modas y otros diseños especializados</li>
+        </ul>
+
+        <h3>Agencias, investigación de mercado, publicidad y turismo</h3>
+        <ul>
+            <li>Agencias de publicidad</li>
+            <li>Agencias de relaciones públicas</li>
+            <li>Agencias de compra de medios a petición del cliente</li>
+            <li>Agencias de representación de medios</li>
+            <li>Agencias de anuncios publicitarios</li>
+            <li>Agencias de publicidad que operan por correo directo</li>
+            <li>Distribución de material publicitario</li>
+            <li>Otros servicios de publicidad</li>
+            <li>Servicios de investigación de mercados y encuestas de opinión pública</li>
+            <li>Servicios combinados de apoyo en instalaciones</li>
+            <li>Agencias de colocación</li>
+            <li>Agencias de empleo temporal</li>
+            <li>Suministro de personal permanente</li>
+            <li>Agencias de cobranza</li>
+            <li>Agencias de viajes</li>
+            <li>Organización de excursiones y paquetes turísticos para agencias de viajes</li>
+            <li>Otros servicios de reservaciones</li>
+            <li>Organizadores de convenciones y ferias comerciales e industriales</li>
+        </ul>
+
+        <h3>Recreativos</h3>
+        <ul>
+            <li>Caza y captura de animales en su hábitat natural y Operación y administración de reservas para caza
+                (como los ranchos cinegéticos)</li>
+            <li>Compañías de teatro del sector privado</li>
+            <li>Compañías de danza del sector privado</li>
+            <li>Otras compañías y grupos circenses, de magia, de patinaje y de otros espectáculos artísticos no
+                clasificados en otra parte</li>
+            <li>Presentación de espectáculos públicos deportivos profesionales y semiprofesionales</li>
+            <li>Equipos deportivos profesionales y semiprofesionales</li>
+            <li>Promotores del sector privado con instalaciones para la presentación de espectáculos artísticos,
+                deportivos y similares</li>
+            <li>Promotores de espectáculos artísticos, deportivos y similares que no cuentan con instalaciones para
+                presentarlos</li>
+            <li>Jardines botánicos y zoológicos del sector privado</li>
+            <li>Parques del sector privado con instalaciones recreativas</li>
+            <li>Campos de golf</li>
+            <li>Pistas para esquiar</li>
+            <li>Marinas turísticas</li>
+            <li>Clubes deportivos del sector privado</li>
+            <li>Balnearios del sector privado</li>
+            <li>Centros de acondicionamiento físico pertenecientes al sector privado</li>
+            <li>Boliches</li>
+            <li>Billares</li>
+            <li>Otros servicios recreativos prestados por el sector privado</li>
+            <li>Producción y presentación de espectáculos públicos combinada con la promoción de los mismos</li>
+            <li>Producción y presentación de espectáculos en restaurantes, bares, salones de fiesta o de baile y centros
+                nocturnos.</li>
+        </ul>
+
+        <h3>Alimentos y bebidas</h3>
+        <ul>
+            <li>Restaurantes-bar con servicio de meseros</li>
+            <li>Restaurantes sin bar y con servicio de meseros</li>
+            <li>Restaurantes de autoservicio</li>
+            <li>Restaurantes de comida para llevar</li>
+            <li>Servicios de comedor para empresas e instituciones</li>
+            <li>Servicios de preparación de alimentos para ocasiones especiales</li>
+            <li>Servicios de preparación de alimentos en unidades móviles</li>
+            <li>Centros nocturnos, discotecas y similares</li>
+            <li>Bares y cantinas</li>
+            <li>Cervecerías</li>
+            <li>Pulquerías</li>
+        </ul>
+
+        <h3>Hospedaje</h3>
+        <ul>
+            <li>Hoteles con otros servicios integrados</li>
+            <li>Servicios de exportación de servicios de hotelería</li>
+            <li>Servicios de exportación de servicios de convenciones y exposiciones</li>
+            <li>Hoteles sin otros servicios integrados</li>
+            <li>Moteles</li>
+            <li>Hoteles con casino</li>
+            <li>Cabañas, villas y similares</li>
+            <li>Campamentos y albergues recreativos</li>
+            <li>Pensiones y casas de huéspedes</li>
+            <li>Departamentos y casas amueblados con servicios de hotelería</li>
+        </ul>
+
+        <h3>Juegos y apuestas</h3>
+        <ul>
+            <li>Casas de juegos electrónicos</li>
+            <li>Recepción, captación, cruce o explotación de apuestas</li>
+            <li>Venta de billetes de lotería</li>
+            <li>Concursos en los que se ofrezcan premios y en alguna etapa de su desarrollo intervenga directa o
+                indirectamente el azar</li>
+        </ul>
+
+        <h3>Orientación, capacitación y guarderías</h3>
+        <ul>
+            <li>Guarderías del sector privado.</li>
+        </ul>
+
+        <h3>Abarrotes, carnes, pescados, leche, frutas o verduras, pan, pasteles y otros alimentos al por menor</h3>
+        <ul>
+            <li>Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas</li>
+            <li>Comercio al por menor de carnes rojas</li>
+            <li>Comercio al por menor de carne de aves</li>
+            <li>Comercio al por menor de pescados y mariscos</li>
+            <li>Comercio al por menor de frutas y verduras frescas</li>
+            <li>Comercio al por menor de huevos de gallina y de otras aves</li>
+            <li>Comercio al por menor de semillas y granos alimenticios, especias y chiles secos</li>
+            <li>Comercio al por menor de leche procesada, otros productos lácteos y embutidos</li>
+            <li>Comercio al por menor de materias primas para repostería</li>
+            <li>Comercio al por menor de otros alimentos preparados para su consumo sin incluir botanas, productos de
+                confitería, chocolates y demás productos derivados del cacao, dulces de frutas y hortalizas, cremas de
+                cacahuate y avellanas</li>
+            <li>Comercio al por menor de refrescos, bebidas hidratantes y rehidratantes elaborados únicamente con azúcar
+                de caña como edulcorante</li>
+            <li>Comercio al por menor de concentrados, polvos, jarabes y esencias de sabor para preparar refrescos,
+                bebidas hidratantes o rehidratantes elaborados con azúcar de caña y otros edulcorantes entregando
+                factura</li>
+            <li>Venta de refrescos, bebidas hidratantes y rehidratantes por la cual se entrega un comprobante
+                simplificado, realizada por personas distintas al fabricante, productor, envasador o importador</li>
+            <li>Venta de concentrados, polvos, jarabes y esencias de sabor para preparar refrescos, bebidas hidratantes
+                o rehidratantes por la cual se entrega un comprobante simplificado, realizada por personas distintas al
+                fabricante, productor, envasador o importador</li>
+            <li>Comercio al por menor de concentrados o jarabes para preparar refrescos que se expendan en envases
+                abiertos utilizando aparatos automáticos, eléctricos o mecánicos entregando factura</li>
+            <li>Comercio al por menor de otros alimentos preparados para su consumo</li>
+            <li>Comercio al por menor de refrescos, bebidas hidratantes y rehidratantes elaborados con azúcar de caña y
+                otros edulcorantes entregando factura.</li>
+            <li>Comercio al por menor de concentrados, polvos, jarabes y esencias de sabor para preparar refrescos,
+                bebidas hidratantes o rehidratantes elaborados únicamente con azúcar de caña como edulcorante</li>
+            <li>Comercio al por menor de concentrados o jarabes para preparar refrescos que se expendan en envases
+                abiertos utilizando aparatos automáticos, eléctricos o mecánicos elaborados únicamente con azúcar de
+                caña como edulcorante.</li>
+            <li>Comercio al por menor de leche.</li>
+            <li>Comercio de alimentos básicos con alta densidad calórica.</li>
+        </ul>
+
+        <h3>Bebidas con contenido alcohólico, alcohol y tabacos al por menor</h3>
+        <ul>
+            <li>Venta de alcohol y alcohol desnaturalizado a público en general en envases de hasta 1 litro</li>
+            <li>Venta al público en general de bebidas refrescantes por la cual se entrega un comprobante simplificado
+            </li>
+            <li>Comercio al por menor de cerveza entregando factura</li>
+            <li>Comercio al por menor de agua purificada y hielo</li>
+            <li>Comercio al por menor de cigarros, puros y tabaco</li>
+            <li>Comercio al por menor de bebidas refrescantes entregando factura</li>
+            <li>Comercio al por menor de vinos de mesa</li>
+            <li>Comercio al por menor de aguamiel y pulque</li>
+            <li>Venta de cerveza por la cual se entrega un comprobante simplificado, realizada por personas distintas al
+                fabricante, productor, envasador o importador</li>
+            <li>Comercio al por menor de otras bebidas a base de uva</li>
+            <li>Comercio al por menor de sidra y otras bebidas fermentadas</li>
+            <li>Comercio al por menor de ron y otras bebidas destiladas de caña</li>
+            <li>Comercio al por menor de bebidas destiladas de agave.</li>
+            <li>Comercio al por menor de bebidas alcohólicas no clasificados en otra parte</li>
+        </ul>
+
+        <h3>Autotransporte y refacciones, gas, gasolina y diésel al por menor</h3>
+        <ul>
+            <li>Venta de automóviles nuevos al consumidor por el fabricante, ensamblador, por el distribuidor autorizado
+                o por el comerciante en el ramo de vehículos cuyo precio de venta no exceda $150,000.00</li>
+            <li>Venta de automóviles nuevos al consumidor por el fabricante, ensamblador, por el distribuidor autorizado
+                o por el comerciante en el ramo de vehículos cuyo precio de venta exceda $150,000.00</li>
+            <li>Comercio al por menor de automóviles y camionetas nuevos cuya propulsión sea a través de baterías
+                eléctricas recargable</li>
+            <li>Comercio al por menor de automóviles y camionetas usados y comercio integrado de automóviles y camiones
+                usados, y a la compra, venta y consignación de automóviles y camionetas</li>
+            <li>Comercio al por menor de partes y refacciones nuevas para automóviles, camionetas y camiones</li>
+            <li>Comercio al por menor de partes y refacciones usadas para automóviles, camionetas y camiones</li>
+            <li>Comercio al por menor de llantas y cámaras, corbatas, válvulas de cámara y tapones para automóviles,
+                camionetas y camiones de motor</li>
+            <li>Comercio al por menor de motocicletas, bicimotos, motonetas y motocicletas acuáticas y sus refacciones
+            </li>
+            <li>Comercio al por menor de otros vehículos de motor</li>
+            <li>Comercio al por menor de gasolina y diésel</li>
+            <li>Comercio al por menor de gas L.P. en cilindros y para tanques estacionarios</li>
+            <li>Comercio al por menor de otros combustibles como petróleo diáfano, carbón vegetal y leña</li>
+            <li>Comercio al por menor de aceites y grasas lubricantes de uso industrial, aditivos y similares para
+                vehículos de motor</li>
+        </ul>
+
+        <h3>Lentes, libros, papelería, súper y minisúper al por menor</h3>
+        <ul>
+            <li>Comercio al por menor en supermercados</li>
+            <li>Comercio al por menor en minisúper</li>
+            <li>Comercio al por menor en tiendas departamentales</li>
+            <li>Comercio al por menor de lentes</li>
+            <li>Comercio al por menor de artículos de papelería</li>
+            <li>Comercio al por menor de libros</li>
+            <li>Comercio al por menor de periódicos y revistas</li>
+            <li>Comercio al por menor en tiendas importadoras de productos de origen extranjero</li>
+            <li>Comercio al por menor en Tiendas de autoservicio de materiales para la autoconstrucción</li>
+        </ul>
+
+        <h3>Textiles, prendas de vestir, joyas y calzado al por menor</h3>
+        <ul>
+            <li>Comercio al por menor de telas</li>
+            <li>Comercio al por menor de blancos</li>
+            <li>Comercio al por menor de artículos de mercería y bonetería</li>
+            <li>Comercio al por menor de ropa nueva, de trajes regionales, disfraces, pieles finas, vestidos para novia,
+                uniformes escolares, no confeccionados con cuero y piel</li>
+            <li>Comercio al por menor bisutería y accesorios de vestir, como pañoletas, mascadas, etc</li>
+            <li>Comercio al por menor cuero, piel y materiales sucedáneos como chamarras, chalecos, faldas y otros
+                artículos de estos materiales como bolsas, portafolios, maletas, cinturones, guantes y carteras</li>
+            <li>Comercio al por menor pañales desechables y/o toallas sanitarias</li>
+            <li>Comercio al por menor sombreros</li>
+            <li>Comercio al por menor calzado, agujetas, tintas, plantillas, accesorios del calzado</li>
+            <li>Comercio al por menor de relojes, joyería fina y artículos decorativos de materiales preciosos</li>
+            <li>Comercio al por menor en general de uniformes y artículos deportivos, equipo y accesorios para
+                excursionismo, pesca y caza deportiva</li>
+            <li>Comercio al por menor de alfombras, tapetes, gobelinos, tapices, linóleos, cortinas, persianas y
+                similares</li>
+        </ul>
+
+        <h3>Maquinaria y equipo industrial, eléctrico, comercial, doméstico y de transporte al por menor</h3>
+        <ul>
+            <li>Comercio al por menor de juguetes, bicicletas, triciclos y partes para bicicletas y triciclos</li>
+            <li>Comercio al por menor de equipo, material fotográfico y sus accesorios</li>
+            <li>Comercio al por menor de instrumentos musicales y sus accesorios</li>
+            <li>Comercio al por menor de enseres electrodomésticos menores y aparatos de línea blanca</li>
+            <li>Comercio al por menor de cristalería y sus piezas sueltas, loza y utensilios de cocina de cerámica y
+                plástico</li>
+            <li>Comercio al por menor de lámparas ornamentales y pantallas para lámparas y candiles</li>
+            <li>Comercio al por menor de otros artículos para la decoración de interiores</li>
+            <li>Comercio al por menor de artículos usados de muebles, enseres domésticos, libros, revistas, ropa,
+                calzado, juguetes</li>
+            <li>Comercio al por menor en ferreterías y tlapalerías</li>
+            <li>Comercio al por menor de pintura (excepto en aerosol), recubrimientos, barnices, brochas, materiales y
+                accesorios para pintura no artística</li>
+            <li>Comercio al por menor de vidrios y espejos, cancelería de aluminio, domos de material acrílico y
+                policarbonato, tragaluces de vidrio</li>
+            <li>Comercio al por menor de artículos para la limpieza</li>
+        </ul>
+
+        <h3>Otros productos al por menor</h3>
+        <ul>
+            <li>Comercio al por menor de aparatos ortopédicos</li>
+            <li>Comercio al por menor de discos, discos compactos, casetes, cartuchos, cintas de audio y video</li>
+            <li>Comercio al por menor de mascotas, medicamentos, accesorios y otros productos</li>
+            <li>Comercio al por menor de artículos religiosos</li>
+            <li>Comercio al por menor de artesanías</li>
+            <li>Comercio al por menor de ataúdes</li>
+            <li>Comercio al por menor de artículos misceláneos no clasificados en otra parte sin incluir botanas,
+                productos de confitería, chocolates y demás productos derivados del cacao, dulces de frutas y
+                hortalizas, cremas de cacahuate y avellanas</li>
+            <li>Comercio al por menor de muebles para el hogar</li>
+            <li>Comercio al por menor de computadoras y sus accesorios</li>
+            <li>Comercio al por menor de teléfonos, de otros aparatos de comunicación, refacciones y accesorios</li>
+            <li>Comercio al por menor de plantas y flores naturales, arreglos florales y frutales, coronas funerarias,
+                naturalezas muertas</li>
+            <li>Comercio al por menor de antigüedades y obras de arte</li>
+            <li>Comercio al por menor de productos de consumo final propiedad de terceros por comisión y consignación
+            </li>
+            <li>Otros intermediarios del comercio al por menor</li>
+            <li>Comercio al por menor por medios masivos de comunicación y otros medios</li>
+            <li>Comercio al por menor a través de máquinas expendedoras</li>
+            <li>Comercio de combustibles fósiles.</li>
+            <li>Comercio de plaguicidas.</li>
+            <li>Elaboración y enajenación de artesanías</li>
+        </ul>
+
+        <h3>Perfumería, farmacia, juguetes, regalos, artículos naturistas y deportivos al por menor</h3>
+        <ul>
+            <li>Farmacias sin minisúper</li>
+            <li>Farmacias con minisúper</li>
+            <li>Comercio al por menor de productos naturistas y de complementos alimenticios sin incluir botanas,
+                productos de confitería, chocolates y demás productos derivados del cacao, dulces de frutas y
+                hortalizas, cremas de cacahuate y avellanas</li>
+            <li>Comercio al por menor de artículos de perfumería y cosméticos</li>
+            <li>Comercio al por menor de regalos</li>
+        </ul>
+
+        <script>
+            function filterList() {
+                let input = document.getElementById('search').value.toLowerCase();
+                let listItems = document.querySelectorAll('#activityList li');
+                let headings = document.querySelectorAll('#activityList h3');
+
+                listItems.forEach(item => {
+                    let text = item.textContent.toLowerCase();
+                    if (text.includes(input)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+
+                headings.forEach(heading => {
+                    let nextElements = [];
+                    let next = heading.nextElementSibling;
+
+                    while (next && next.tagName !== 'H3') {
+                        nextElements.push(next);
+                        next = next.nextElementSibling;
+                    }
+
+                    let hasVisibleItems = nextElements.some(el => el.style.display === 'block');
+
+                    if (hasVisibleItems) {
+                        heading.style.display = 'block';
+                    } else {
+                        heading.style.display = 'none';
+                    }
+                });
+            }
+        </script>
+</body>
+
+</html>
