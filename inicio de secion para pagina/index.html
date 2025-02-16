@@ -1,22 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Iniciar sesión</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class= "login">
-        <form>
-            <h1>Inicar sesión</h1>
+    <div class="login">
+        <form onsubmit="iniciarSesion(event)">
+            <h1>Iniciar sesión</h1>
             <label>Nombre de Usuario</label>
-            <input type="text">
+            <input type="text" id="usuario" placeholder="Ingrese su nombre de usuario">
             <label>Contraseña</label>
-            <input type="Password">
-            <button>Enviar</button>
+            <input type="password" id="contraseña" placeholder="Ingrese su contraseña">
+            <button type="submit">Enviar</button>
         </form>            
     </div>
 
+    <script>
+        // Usuario y contraseña predefinidos
+        const usuarioAdmin = "iniziodinuovo";
+        const contraseñaAdmin = "d-3499618";
+
+        // Función de inicio de sesión
+        function iniciarSesion(event) {
+            event.preventDefault(); // Evita el envío del formulario
+
+            const usuario = document.getElementById("usuario").value;
+            const contraseña = document.getElementById("contraseña").value;
+
+            if (usuario === usuarioAdmin && contraseña === contraseñaAdmin) {
+                // Si el usuario y la contraseña son correctos, redirige al papel de trabajo
+                window.location.href = "index.html"; // Redirige a index.html
+            } else {
+                alert("Usuario o contraseña incorrectos");
+            }
+        }
+    </script>
 </body>
 </html>

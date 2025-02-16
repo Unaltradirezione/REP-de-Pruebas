@@ -20,11 +20,11 @@ time.sleep(5)
 
 # Ingresar RFC
 rfc_input = driver.find_element(By.ID, "rfc")
-rfc_input.send_keys("PIMV9602044E7")
+rfc_input.send_keys("YASC020415FM9")
 
 # Ingresar contraseña
 password_input = driver.find_element(By.ID, "password")
-password_input.send_keys("26mortys")
+password_input.send_keys("Chivas02")
 
 # Esperar que el usuario resuelva el CAPTCHA manualmente
 input("⚠️ Resuelve el CAPTCHA y presiona ENTER para continuar...")
